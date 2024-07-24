@@ -81,7 +81,7 @@ const Personalpage = () => {
           </div>
 
           <div>
-            <a class="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#683fe4] font-medium text-sm text-white rounded-full focus:outline-none" href="../../templates/agency/index.html#contact">
+            <a class="group inline-flex items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4] font-medium text-sm text-white rounded-full focus:outline-none" href="../../templates/agency/index.html#contact">
               Contact us
             </a>
           </div>
@@ -91,11 +91,32 @@ const Personalpage = () => {
   </header>
 
   <main id="content">
-    <div class="bg-neutral-900">
-      <div class="max-w-5xl mx-auto px-4 xl:px-0 pt-24 lg:pt-32 pb-24">
-        <h1 class="font-semibold text-white text-5xl md:text-6xl">
-          <span class="text-[#683fe4]">Transformando ideas </span>en realidad Crea tu sitio personalizado
+  
+    <div class="bg-neutral-900 flex">
+    <div class="area flex">
+			<ul class="circles">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+      <div class="max-w-3xl left-10 relative  mx-auto px-4 xl:px-0 pt-24 lg:pt-6 pb-24">
+        <div className='flex top-[12%] relative'>
+
+ <Image style={{animation: 'float 3s ease-in-out infinite'}} src='/bombilla.png' className='relative left-[85%] top-[12%] ' height={60} width={60} alt='bombilla icon'/>
+ <Image style={{animation: 'float 3s ease-in-out infinite 1s'}} src='/cohete.png' className='relative animate-pulse left-[85%] h-[45px] mt-4 ' height={40} width={50}  alt='cohete icon'/>
+        </div>
+       
+       <h1 class="font-semibold text-white  text-5xl md:text-6xl">
+        <span class=" bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]">Daniel Passantino</span> Transformando tus ideas en realidad
         </h1>
+  
         <div class="max-w-4xl">
           <p class="mt-5 text-neutral-400 text-lg">
           Decidí lanzarme al diseño web y la creación de sitios web en 2021 justo después de obtener con éxito mi licencia de comercio electrónico y marketing digital y mi licencia de gestión de proyectos de estudio y trabajo.
@@ -104,8 +125,8 @@ const Personalpage = () => {
           He creado y actualmente administro más de 30 sitios web para pequeñas y medianas empresas en Francia, Portugal y Japón. 
           </p>
         </div>
-        <div className='mt-5 '>
-        <a class="group inline-flex text-white items-center gap-x-2 py-2 px-3 bg-[#683fe4] font-medium text-sm  rounded-full focus:outline-none" href="#">
+        <div className='mt-12 -ml-1 '>
+        <a class="group inline-flex text-white items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm  rounded-full focus:outline-none" href="#">
                     Contactame por Whatsapp
                     <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M5 12h14" />
@@ -115,6 +136,11 @@ const Personalpage = () => {
         </div>
         
       </div>
+      <div className='max-w-2xl px-26 relative lg:pt-20'>
+        <Image src='/man-in-blue-jackset-701x1024.png'  height={400} width={400} alt='Main Image'/>
+      </div>
+		</div>
+     
     </div>
 
     <div class="relative overflow-hidden pt-4 bg-neutral-900">
@@ -133,9 +159,9 @@ const Personalpage = () => {
     </div>
 
 
-    <section class="bg-black text-white py-8">  
+    <section class="bg-black text-white py-8 px-28">  
   <div class="logos group relative overflow-hidden whitespace-nowrap py-10 [mask-image:_linear-gradient(to_right,_transparent_0,_white_128px,white_calc(100%-128px),_transparent_100%)]">
-    <div class="animation:slide-left group-hover:animation-pause inline-block w-max">
+    <div  style={{animation: 'slide-left  12s linear infinite '}} class="group-hover:animation-pause inline-block w-max">
       <img class="mx-4 inline h-16" src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg" alt="Transistor" />
       <img class="mx-4 inline h-16" src="https://tailwindui.com/img/logos/158x48/reform-logo-white.svg" alt="Reform" />
       <img class="mx-4 inline h-16" src="https://tailwindui.com/img/logos/158x48/tuple-logo-white.svg" alt="Tuple" />
@@ -144,7 +170,7 @@ const Personalpage = () => {
       <img class="mx-4 inline h-16" src="https://tailwindui.com/img/logos/158x48/laravel-logo-white.svg" alt="SavvyCal" />
     </div>
 
-    <div class="animation:slide-left group-hover:animation-pause inline-block w-max">
+    <div style={{animation: 'slide-left 12s linear infinite  '}} class=" group-hover:animation-pause inline-block w-max">
       <img class="mx-4 inline h-16" src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg" alt="Transistor" />
       <img class="mx-4 inline h-16" src="https://tailwindui.com/img/logos/158x48/reform-logo-white.svg" alt="Reform" />
       <img class="mx-4 inline h-16" src="https://tailwindui.com/img/logos/158x48/tuple-logo-white.svg" alt="Tuple" />
@@ -223,11 +249,11 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
       </div>
     </div>
 
-    {/* Portafolio */}
-<div class="relative flex min-h-screen flex-col justify-center overflow-hidden py-6 sm:py-12">
+{/* Portafolio */}
+<div class="relative mx-20 flex min-h-screen flex-col justify-center overflow-hidden py-6 sm:py-12">
   <div class="mx-auto max-w-screen-xl px-4 w-full">
-  <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight mb-4 flex justify-center">Proyectos Recientes</h2>
-    <div class="grid w-full sm:grid-cols-2 xl:grid-cols-4 gap-6">
+  <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight mb-6 flex justify-center">Proyectos Recientes</h2>
+    <div class="grid w-full sm:grid-cols-2 xl:grid-cols-3 gap-6">
 
       <div class="relative flex flex-col shadow-md rounded-xl overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300 max-w-sm">
         <a href="" class="hover:text- absolute z-30 top-2 right-0 mt-2 mr-3">
@@ -261,8 +287,7 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
           </div>
           </div>
         </div>
-      </div>
-      
+      </div>  
       <div class="relative flex flex-col shadow-md rounded-xl overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300 max-w-sm">
         <a href="" class="hover:text-[#683fe4] absolute z-30 top-2 right-0 mt-2 mr-3">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -500,7 +525,7 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
   </div>
 </div>
     
-    {/* Clientes satisfechos */}
+{/* Clientes satisfechos */}
     <div class="bg-neutral-900">
       <div class="max-w-5xl px-4 xl:px-0 py-10 lg:py-20 mx-auto">
         <div class="max-w-3xl mb-10 lg:mb-14">
@@ -536,9 +561,12 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
       </div>
     </div>
 
-    {/* Ofrecemos */}
+{/* Ofrecemos */}
     <div class="bg-neutral-900">
       <div class="max-w-5xl px-4 xl:px-0 py-10 mx-auto">
+      <div class=" flex justify-center mb-10 lg:mb-14">
+          <h2 class="text-white text-center justify-center font-semibold text-2xl md:text-4xl md:leading-tight">Diseñando un portal web integral y completo.</h2>
+        </div>
         <div class="border border-neutral-800 rounded-xl">
           <div class="p-4 lg:p-8 bg-gradient-to-bl from-neutral-800 via-neutral-900 to-neutral-950 rounded-xl">
             <div class="grid grid-cols-1 sm:grid-cols-3 items-center gap-y-20 gap-x-12">
@@ -577,6 +605,7 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
       </div>
     </div>
 
+{/* Enfoque */}
     <div class="bg-neutral-900">
       <div class="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20  mx-auto">
         <div class="max-w-3xl mb-10 lg:mb-14">
@@ -665,7 +694,7 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
               </div>
             </div>
 
-            <a class="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#683fe4] font-medium text-sm text-neutral-800 rounded-full focus:outline-none" href="#">
+            <a class="group inline-flex items-center gap-x-2 py-2 px-3 text-white bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm text-neutral-800 rounded-full focus:outline-none" href="#">
               <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                 <path class="opacity-0 group-hover:opacity-100 group-focus:opacity-100 group-hover:delay-100 transition" d="M14.05 2a9 9 0 0 1 8 7.94"></path>
@@ -680,12 +709,12 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
     <div class="bg-neutral-900">
       <div class="max-w-5xl px-4 xl:px-0 py-10 lg:py-20 mx-auto">
         <div class="max-w-3xl mb-10 lg:mb-14">
-          <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight">Contact us</h2>
-          <p class="mt-1 text-neutral-400">Whatever your goal - we will get you there.</p>
+          <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight">Contactame</h2>
+          <p class="mt-1 text-neutral-400">Sin importar cual sea tu meta, la alcanzaremos.</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-x-10 lg:gap-x-16">
-          <div class="md:order-2 border-b border-neutral-800 pb-10 mb-10 md:border-b-0 md:pb-0 md:mb-0">
+          <div class="md:order-2 border-b md:-mt-20  border-neutral-800 pb-10 mb-10 md:border-b-0 md:pb-0 md:mb-0">
             <form>
               <div class="space-y-4">
                 <div class="relative">
@@ -702,7 +731,24 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
                     peer-focus:text-neutral-400
                     peer-[:not(:placeholder-shown)]:text-xs
                     peer-[:not(:placeholder-shown)]:-translate-y-1.5
-                    peer-[:not(:placeholder-shown)]:text-neutral-400">Name</label>
+                    peer-[:not(:placeholder-shown)]:text-neutral-400">Nombre</label>
+                </div>
+
+                <div class="relative">
+                  <input type="text" id="hs-tac-input-name" class="peer p-4 block w-full bg-neutral-800 border-transparent rounded-lg text-sm text-white placeholder:text-transparent focus:outline-none focus:ring-0 focus:border-transparent disabled:opacity-50 disabled:pointer-events-none
+                  focus:pt-6
+                  focus:pb-2
+                  [&:not(:placeholder-shown)]:pt-6
+                  [&:not(:placeholder-shown)]:pb-2
+                  autofill:pt-6
+                  autofill:pb-2" placeholder="Name"/>
+                  <label for="hs-tac-input-name" class="absolute top-0 start-0 p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
+                    peer-focus:text-xs
+                    peer-focus:-translate-y-1.5
+                    peer-focus:text-neutral-400
+                    peer-[:not(:placeholder-shown)]:text-xs
+                    peer-[:not(:placeholder-shown)]:-translate-y-1.5
+                    peer-[:not(:placeholder-shown)]:text-neutral-400">Apellido</label>
                 </div>
 
                 <div class="relative">
@@ -719,25 +765,10 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
                     peer-focus:text-neutral-400
                     peer-[:not(:placeholder-shown)]:text-xs
                     peer-[:not(:placeholder-shown)]:-translate-y-1.5
-                    peer-[:not(:placeholder-shown)]:text-neutral-400">Email</label>
+                    peer-[:not(:placeholder-shown)]:text-neutral-400">Correo Electronico</label>
                 </div>
 
-                <div class="relative">
-                  <input type="text" id="hs-tac-input-company" class="peer p-4 block w-full bg-neutral-800 border-transparent rounded-lg text-sm text-white placeholder:text-transparent focus:outline-none focus:ring-0 focus:border-transparent disabled:opacity-50 disabled:pointer-events-none
-                  focus:pt-6
-                  focus:pb-2
-                  [&:not(:placeholder-shown)]:pt-6
-                  [&:not(:placeholder-shown)]:pb-2
-                  autofill:pt-6
-                  autofill:pb-2" placeholder="Company"/>
-                  <label for="hs-tac-input-company" class="absolute top-0 start-0 p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
-                    peer-focus:text-xs
-                    peer-focus:-translate-y-1.5
-                    peer-focus:text-neutral-400
-                    peer-[:not(:placeholder-shown)]:text-xs
-                    peer-[:not(:placeholder-shown)]:-translate-y-1.5
-                    peer-[:not(:placeholder-shown)]:text-neutral-400">Company</label>
-                </div>
+                
 
                 <div class="relative">
                   <input type="text" id="hs-tac-input-phone" class="peer p-4 block w-full bg-neutral-800 border-transparent rounded-lg text-sm text-white placeholder:text-transparent focus:outline-none focus:ring-0 focus:border-transparent disabled:opacity-50 disabled:pointer-events-none
@@ -753,7 +784,7 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
                     peer-focus:text-neutral-400
                     peer-[:not(:placeholder-shown)]:text-xs
                     peer-[:not(:placeholder-shown)]:-translate-y-1.5
-                    peer-[:not(:placeholder-shown)]:text-neutral-400">Phone</label>
+                    peer-[:not(:placeholder-shown)]:text-neutral-400">Telefono</label>
                 </div>
 
                 <div class="relative">
@@ -770,18 +801,18 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
                     peer-focus:text-neutral-400
                     peer-[:not(:placeholder-shown)]:text-xs
                     peer-[:not(:placeholder-shown)]:-translate-y-1.5
-                    peer-[:not(:placeholder-shown)]:text-neutral-400">Tell us about your project</label>
+                    peer-[:not(:placeholder-shown)]:text-neutral-400">Cuentame acerca de tu proyecto</label>
                 </div>
               </div>
 
               <div class="mt-2">
                 <p class="text-xs text-neutral-500">
-                  All fields are required
+                  Todos los campos son requeridos
                 </p>
 
                 <p class="mt-5">
-                  <a class="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#683fe4] font-medium text-sm text-neutral-800 rounded-full focus:outline-none" href="#">
-                    Submit
+                  <a class="group inline-flex items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4] text-white font-medium text-sm text-neutral-800 rounded-full focus:outline-none" href="#">
+                   Enviar
                     <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M5 12h14" />
                       <path d="m12 5 7 7-7 7" />
@@ -799,7 +830,7 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
                 <circle cx="12" cy="10" r="3" />
               </svg>
               <div class="grow">
-                <h4 class="text-white font-semibold">Our address:</h4>
+                <h4 class="text-white font-semibold">Nuestra Direccion</h4>
 
                 <address class="mt-1 text-neutral-400 text-sm not-italic">
                   300 Bath Street, Tay House<br/>
@@ -814,10 +845,10 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
                 <path d="m22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10" />
               </svg>
               <div class="grow">
-                <h4 class="text-white font-semibold">Email us:</h4>
+                <h4 class="text-white font-semibold">Escribeme a:</h4>
 
                 <a class="mt-1 text-neutral-400 text-sm" href="#mailto:example@site.co" target="_blank">
-                  hello@example.so
+                  passantinodev@gmail.com
                 </a>
               </div>
             </div>
@@ -828,11 +859,11 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
                 <path d="M11.6 16.8a3 3 0 1 1-5.8-1.6" />
               </svg>
               <div class="grow">
-                <h4 class="text-white font-semibold">We're hiring</h4>
-                <p class="mt-1 text-neutral-400">We're thrilled to announce that we're expanding our team and looking for talented individuals like you to join us.</p>
+                <h4 class="text-white font-semibold">Fija una cita</h4>
+                <p class="mt-1 text-neutral-400">Enviame un correo electronico para agendar tu primera cita y conocer un poco mas acerca de ti y tus necesidades</p>
                 <p class="mt-2">
                   <a class="group inline-flex items-center gap-x-2 font-medium text-sm text-[#683fe4] decoration-2 hover:underline focus:outline-none focus:underline" href="#">
-                    Job openings
+                    Con gusto te contestare lo antes posible.
                     <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5   group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M5 12h14" />
                       <path d="m12 5 7 7-7 7" />
@@ -878,7 +909,7 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
           </svg>
 
           <div class="border-s border-neutral-700 ps-5 ms-5">
-            <p class="text-sm text-neutral-400">2024 Preline Co.</p>
+            <p class="text-sm text-neutral-400">2024 Daniel Passantino</p>
           </div>
         </div>
       </div>
