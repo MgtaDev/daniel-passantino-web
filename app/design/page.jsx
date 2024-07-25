@@ -1,17 +1,20 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Diseño  = () => {
   return (
 <div class="overflow-hidden">
-  <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-20">
+  <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <div class="relative mx-auto max-w-4xl grid space-y-5 sm:space-y-10">
       <div class="text-center">
-        <p class="text-xs font-semibold text-gray-500 tracking-wide uppercase mb-3 dark:text-neutral-200">
-          Small business solutions
-        </p>
+       
         <h1 class="text-3xl text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-neutral-200">
         Convierte tu visión en realidad <span class="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]">con mis gráficos y diseño únicos.</span>
         </h1>
+
+        <p class="text-xs font-semibold text-gray-500 tracking-wide mt-3 mb-3 dark:text-neutral-200">
+        Con mi experiencia en gráfica y diseño, creo soluciones visuales que fortalecen tu marca.
+        </p>
       </div>
 
       <div class="sm:flex sm:justify-center sm:items-center text-center sm:text-start">
@@ -69,7 +72,297 @@ const Diseño  = () => {
         </svg>
       </div>
     </div>
+  </div> 
+  <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div class="grid md:grid-cols-2 gap-12">
+      <div class="lg:w-3/4">
+        <h2 class="text-3xl text-center  text-gray-800 font-bold lg:text-4xl dark:text-white">
+        Esculpe tu marca con mis servicios de diseño y gráficos.
+        </h2>
+        <p class="mt-3 text-gray-800 text-center dark:text-neutral-400">
+          We help businesses bring ideas to life in the digital world, by designing and implementing the technology tools that they need to win.
+        </p>
+        <p class="mt-5 text-center">
+          <a class="inline-flex items-center text-center gap-x-1 text-sm text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline font-medium dark:text-blue-500" href="#">
+            Contact sales to learn more
+            <svg class="shrink-0 size-4 transition ease-in-out group-hover:translate-x-1 group-focus:translate-x-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+          </a>
+        </p>
+      </div>
+
+      <div class="space-y-6 lg:space-y-10">
+        <div class="flex gap-x-5 sm:gap-x-8">
+          <span class="shrink-0 inline-flex justify-center items-center size-[46px] rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm mx-auto dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+            <svg class="shrink-0 size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          </span>
+          <div class="grow">
+            <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
+            Creación de logotipos y cartas gráficas.
+            </h3>
+            <p class="mt-1 text-gray-600 dark:text-neutral-400">
+              Our documentation and extensive Client libraries contain everything a business needs to build a custom integration in a fraction of the time.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex gap-x-5 sm:gap-x-8">
+          <span class="shrink-0 inline-flex justify-center items-center size-[46px] rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm mx-auto dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+            <svg class="shrink-0 size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2v5Z"/><path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1"/></svg>
+          </span>
+          <div class="grow">
+            <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
+            Creación de visuales y diseño gráfico.
+            </h3>
+            <p class="mt-1 text-gray-600 dark:text-neutral-400">
+              We actively contribute to open-source projects—giving back to the community through development, patches, and sponsorships.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex gap-x-5 sm:gap-x-8">
+          <span class="shrink-0 inline-flex justify-center items-center size-[46px] rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm mx-auto dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+            <svg class="shrink-0 size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z"/></svg>
+          </span>
+          <div class="grow">
+            <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
+            Creación de anuncios de productos y visuales de comercio electrónico.
+            </h3>
+            <p class="mt-1 text-gray-600 dark:text-neutral-400">
+              From boarding passes to movie tickets, there's pretty much nothing you can't store with Preline.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div class="grid lg:grid-cols-2 gap-6">
+      <a class="group sm:flex rounded-xl focus:outline-none" href="#">
+        <div class="shrink-0 relative rounded-xl overflow-hidden h-[200px] sm:w-[250px] sm:h-[350px] w-full">
+          <img class="size-full absolute top-0 start-0 object-cover" src="https://images.unsplash.com/photo-1664574654529-b60630f33fdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
+        </div>
+
+        <div class="grow">
+          <div class="p-4 flex flex-col h-full sm:p-6">
+            <div class="mb-3 flex justify-center">
+              <p class="inline-flex mr-3 items-center gap-1.5 py-1.5 px-3 rounded-md text-xs font-medium bg-gray-100 text-gray-800 dark:bg-neutral-800 dark:text-neutral-200">
+            Logotipos
+              </p>
+              <p class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-md text-xs font-medium bg-gray-100 text-gray-800 dark:bg-neutral-800 dark:text-neutral-200">
+            Cartas Graficas
+              </p>
+            </div>
+            <h3 class="text-xl mt-3 text-center sm:text-3xl font-semibold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-300 dark:group-hover:text-white dark:group-focus:text-white">
+            Diseño de logotipos y cartas gráficas que cautivan
+            </h3>
+            <p class="mt-2 text-center text-gray-600 dark:text-neutral-400">
+            Mi servicio de diseño de logotipos y cartas gráficas va más allá de la simple estética. Me sumerjo en la esencia de tu marca para crear imágenes que cuenten tu historia. Los beneficios de mi diseño radican en la atención al detalle.
+            </p>
+            <div className='mt-8 -ml-1 justify-center flex '>
+          <a class="group inline-flex text-white items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm  rounded-full focus:outline-none" href="#">
+                      Contactame
+                      <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14" />
+                        <path d="m12 5 7 7-7 7" />
+                      </svg>
+                    </a>
+          </div>
+
+          
+          </div>
+        </div>
+      </a>
+
+      <a class="group sm:flex rounded-xl focus:outline-none" href="#">
+        <div class="shrink-0 relative rounded-xl overflow-hidden h-[200px] sm:w-[250px] sm:h-[350px] w-full">
+          <img class="size-full absolute top-0 start-0 object-cover" src="https://images.unsplash.com/photo-1669824774762-65ddf29bee56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
+        </div>
+        <div class="grow">
+          <div class="p-4 flex flex-col h-full sm:p-6">
+            <div class="mb-3 flex justify-center">
+              <p class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-md text-xs font-medium bg-gray-100 text-gray-800 dark:bg-neutral-800 dark:text-neutral-200">
+            Elementos Graficos
+              </p>
+            </div>
+            <h3 class="text-xl sm:text-2xl text-center font-semibold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-300 dark:group-hover:text-white dark:group-focus:text-white">
+            Elementos visuales de diseño gráfico que dan vida a tu contenido.
+            </h3>
+            <p class="mt-2 text-gray-600 text-center dark:text-neutral-400">
+            En el mundo del diseño gráfico, el impacto visual lo es todo. Creo imágenes que llaman la atención y se dirigen a su público objetivo. A través de mi galería de proyectos completados, descubrirás cómo ayudé a marcas como la tuya a destacar.
+            </p>
+            <div className='mt-8 -ml-1 justify-center flex '>
+          <a class="group inline-flex text-white items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm  rounded-full focus:outline-none" href="#">
+                      Contactame
+                      <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14" />
+                        <path d="m12 5 7 7-7 7" />
+                      </svg>
+                    </a>
+          </div>
+
+        
+          </div>
+        </div>
+      </a>
+
+      <a class="group sm:flex rounded-xl focus:outline-none" href="#">
+        <div class="shrink-0 relative rounded-xl overflow-hidden h-[200px] sm:w-[250px] sm:h-[350px] w-full">
+          <img class="size-full absolute top-0 start-0 object-cover" src="https://images.unsplash.com/photo-1669824774762-65ddf29bee56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
+        </div>
+        <div class="grow">
+          <div class="p-4 flex flex-col h-full sm:p-6">
+            <div class="mb-3 flex justify-center">
+              <p class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-md text-xs font-medium bg-gray-100 text-gray-800 dark:bg-neutral-800 dark:text-neutral-200">
+                Imagenes de producto
+              </p>
+              <p class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-md text-xs font-medium bg-gray-100 text-gray-800 dark:bg-neutral-800 dark:text-neutral-200">
+                Comercio Electronico
+              </p>
+            </div>
+            <h3 class="text-xl sm:text-2xl text-center font-semibold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-300 dark:group-hover:text-white dark:group-focus:text-white">
+            Imágenes de productos y comercio electrónico que venden
+            </h3>
+            <p class="mt-2 text-gray-600 text-center dark:text-neutral-400">
+            El comercio electrónico requiere imágenes impactantes. Mis servicios especializados en diseño visual de producto están diseñados para captar la atención y generar interés.
+            </p>
+            <div className='mt-8 -ml-1 justify-center flex '>
+          <a class="group inline-flex text-white items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm  rounded-full focus:outline-none" href="#">
+                      Contactame
+                      <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14" />
+                        <path d="m12 5 7 7-7 7" />
+                      </svg>
+                    </a>
+          </div>
+
+        
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  {/* Otros servicios */}
+  <div class="text-center">
+    
+        <h1 class="text-3xl mx-4 text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-neutral-200">
+        Explora mis <span class="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]">otros servicios</span>
+        </h1>
+  </div>
+  <div class="max-w-[85rem] flex justify-center px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-6 md:gap-10">
+      <div class="size-full bg-white shadow-lg rounded-lg p-5 dark:bg-neutral-900">
+        <div class="flex items-center gap-x-4 mb-3">
+            <Image src='/sensible.png' height={50} width={50} alt='website icon'/>
+          <div class="shrink-0">
+            <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">Sitios Web</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="size-full bg-white shadow-lg rounded-lg p-5 dark:bg-neutral-900">
+        <div class="flex items-center gap-x-4 mb-3">
+          <Image src='/disenador-grafico.png' height={50} width={50} alt='website icon'/>
+          <div class="shrink-0">
+            <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">Redes sociales</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="size-full bg-white shadow-lg rounded-lg p-5 dark:bg-neutral-900">
+        <div class="flex items-center gap-x-4 mb-3">
+        <Image src='/redes-sociales.png' height={50} width={50} alt='website icon'/>
+          <div class="shrink-0">
+            <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">Diseño Grafico</h3>
+          </div>
+        </div>
+      </div>
+
+  
+
+
+    
+    </div>
+  </div>
+  {/* Otros servicos */}
+
+  {/* El blog */}
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+  <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+    <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">El Blog</h2>
+    <p class="mt-1 text-gray-600 dark:text-neutral-400">Descubre mi blog, las preguntas que puedes hacerme, las herramientas que uso y la formación que realizo.</p>
+  </div>
+
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg focus:outline-none focus:border-transparent focus:shadow-lg transition duration-300 rounded-xl p-5 dark:border-neutral-700 dark:hover:border-transparent dark:hover:shadow-black/40 dark:focus:border-transparent dark:focus:shadow-black/40" href="#">
+      <div class="aspect-w-16 aspect-h-11">
+        <img class="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1633114128174-2f8aa49759b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
+      </div>
+      <div class="my-6">
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:group-hover:text-white">
+          Announcing a free plan for small teams
+        </h3>
+        <p class="mt-5 text-gray-600 dark:text-neutral-400">
+          At Wake, our mission has always been focused on bringing openness.
+        </p>
+      </div>
+      <div class="mt-auto flex items-center gap-x-3">
+        <img class="size-8 rounded-full" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Avatar"/>
+        <div>
+          <h5 class="text-sm text-gray-800 dark:text-neutral-200">By Daniel Passantino</h5>
+        </div>
+      </div>
+    </a>
+
+    <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg focus:outline-none focus:border-transparent focus:shadow-lg transition duration-300 rounded-xl p-5 dark:border-neutral-700 dark:hover:border-transparent dark:hover:shadow-black/40 dark:focus:border-transparent dark:focus:shadow-black/40" href="#">
+      <div class="aspect-w-16 aspect-h-11">
+        <img class="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1562851529-c370841f6536?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
+      </div>
+      <div class="my-6">
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:group-hover:text-white">
+          How Google Assistant now helps you record stories for kids
+        </h3>
+        <p class="mt-5 text-gray-600 dark:text-neutral-400">
+          Google is constantly updating its consumer AI, Google Assistant, with new features.
+        </p>
+      </div>
+      <div class="mt-auto flex items-center gap-x-3">
+        <img class="size-8 rounded-full" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Avatar"/>
+        <div>
+          <h5 class="text-sm text-gray-800 dark:text-neutral-200">By Daniel Passantino</h5>
+        </div>
+      </div>
+    </a>
+
+    <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg focus:outline-none focus:border-transparent focus:shadow-lg transition duration-300 rounded-xl p-5 dark:border-neutral-700 dark:hover:border-transparent dark:hover:shadow-black/40 dark:focus:border-transparent dark:focus:shadow-black/40" href="#">
+      <div class="aspect-w-16 aspect-h-11">
+        <img class="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1521321205814-9d673c65c167?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
+      </div>
+      <div class="my-6">
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:group-hover:text-white">
+          Front accounts - let's work together
+        </h3>
+        <p class="mt-5 text-gray-600 dark:text-neutral-400">
+          Are you an accountant? Are you a company formation advisor?
+        </p>
+      </div>
+      <div class="mt-auto flex items-center gap-x-3">
+        <img class="size-8 rounded-full" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Avatar"/>
+        <div>
+          <h5 class="text-sm text-gray-800 dark:text-neutral-200">By Daniel Passantino</h5>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="mt-12 text-center">
+    <a class="py-3 px-4 inline-flex bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]   items-center gap-x-1 text-sm font-medium rounded-full border border-gray-200 bg-white text-white shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800" href="#">
+      Ver mas
+      <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+    </a>
+  </div>
+</div>
+
 </div>
   )
 }
