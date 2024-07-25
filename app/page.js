@@ -92,8 +92,8 @@ const Personalpage = () => {
 
   <main id="content">
   
-    <div class="bg-neutral-900 flex">
-    <div class="area flex">
+    <div class="bg-neutral-900 mb-48 flex">
+    <div class="area md:flex">
 			<ul class="circles">
 				<li></li>
 				<li></li>
@@ -106,26 +106,30 @@ const Personalpage = () => {
 				<li></li>
 				<li></li>
 			</ul>
-      <div class="max-w-3xl left-10 relative  mx-auto px-4 xl:px-0 pt-24 lg:pt-6 pb-24">
-        <div className='flex top-[12%] relative'>
-
- <Image style={{animation: 'float 3s ease-in-out infinite'}} src='/bombilla.png' className='relative left-[85%] top-[12%] ' height={60} width={60} alt='bombilla icon'/>
- <Image style={{animation: 'float 3s ease-in-out infinite 1s'}} src='/cohete.png' className='relative animate-pulse left-[85%] h-[45px] mt-4 ' height={40} width={50}  alt='cohete icon'/>
+      <div class="max-w-3xl  md:left-10 relative  mx-auto px-4 xl:px-0 pt-14 lg:pt-6 pb-24">
+        <div className='flex hidden  top-[12%] relative'>
+        <Image style={{animation: 'float 3s ease-in-out infinite'}} src='/bombilla.png' className='relative md:left-[85%] md:top-[12%] ' height={60} width={60} alt='bombilla icon'/>
+        <Image style={{animation: 'float 3s ease-in-out infinite 1s'}} src='/cohete.png' className='relative animate-pulse md:left-[85%] md:h-[45px] md:mt-4 ' height={40} width={50}  alt='cohete icon'/>
         </div>
        
-       <h1 class="font-semibold text-white  text-5xl md:text-6xl">
+       <h1 class="font-semibold text-center text-white  text-5xl md:text-6xl">
         <span class=" bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]">Daniel Passantino</span> Transformando tus ideas en realidad
         </h1>
+
+        <div className='flex md:hidden justify-center  lg:hidden mt-4 relative'>
+        <Image style={{animation: 'float 3s ease-in-out infinite'}} src='/bombilla.png' className='relative md:left-[85%] md:top-[12%] ' height={60} width={60} alt='bombilla icon'/>
+        <Image style={{animation: 'float 3s ease-in-out infinite 1s'}} src='/cohete.png' className='relative animate-pulse md:left-[85%] md:h-[45px] md:mt-4 ' height={40} width={50}  alt='cohete icon'/>
+        </div>
   
         <div class="max-w-4xl">
-          <p class="mt-5 text-neutral-400 text-lg">
+          <p class="mt-5 text-center md:text-left text-neutral-400 text-lg">
           Decidí lanzarme al diseño web y la creación de sitios web en 2021 justo después de obtener con éxito mi licencia de comercio electrónico y marketing digital y mi licencia de gestión de proyectos de estudio y trabajo.
           </p>
-          <p class="mt-5 text-neutral-400 text-lg">
+          <p class="mt-5 text-center md:text-left text-neutral-400 text-lg">
           He creado y actualmente administro más de 30 sitios web para pequeñas y medianas empresas en Francia, Portugal y Japón. 
           </p>
         </div>
-        <div className='mt-12 -ml-1 '>
+        <div className='mt-12 -ml-1 justify-center flex '>
         <a class="group inline-flex text-white items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm  rounded-full focus:outline-none" href="#">
                     Contactame por Whatsapp
                     <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -136,7 +140,7 @@ const Personalpage = () => {
         </div>
         
       </div>
-      <div className='max-w-2xl px-26 relative lg:pt-20'>
+      <div className='max-w-2xl px-4 md:px-26 relative -mt-6  lg:pt-20'>
         <Image src='/man-in-blue-jackset-701x1024.png'  height={400} width={400} alt='Main Image'/>
       </div>
 		</div>
@@ -250,7 +254,7 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
     </div>
 
 {/* Portafolio */}
-<div class="relative mx-20 flex min-h-screen flex-col justify-center overflow-hidden py-6 sm:py-12">
+<div class="relative lg:mx-20 flex min-h-screen flex-col justify-center overflow-hidden py-6 sm:py-12">
   <div class="mx-auto max-w-screen-xl px-4 w-full">
   <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight mb-6 flex justify-center">Proyectos Recientes</h2>
     <div class="grid w-full sm:grid-cols-2 xl:grid-cols-3 gap-6">
@@ -705,7 +709,164 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
         </div>
       </div>
     </div>
+  
 
+{/* <!-- Pricing --> */}
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+  {/* <!-- Title --> */}
+  <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+    <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Find the right plan for your team</h2>
+    <p class="mt-1 text-gray-600 dark:text-neutral-400">Pay as you go service, cancel anytime.</p>
+  </div>
+{/* <!-- End Title --> */}
+
+  <div class="relative before:absolute before:inset-0 before:-z-[1] before:bg-[radial-gradient(closest-side,#cbd5e1,transparent)] dark:before:bg-[radial-gradient(closest-side,#525252,transparent)] mt-12">
+    <div class="grid gap-px sm:grid-cols-2 lg:grid-cols-4 lg:items-center">
+      <div class="flex flex-col h-full text-center">
+        <div class="bg-white pt-8 pb-5 px-8 dark:bg-neutral-900">
+          <h4 class="font-medium text-lg text-gray-800 dark:text-neutral-200">Free</h4>
+        </div>
+
+        <div class="h-full bg-white lg:mt-px lg:py-5 px-8 dark:bg-neutral-900">
+          <span class="mt-7 font-bold text-5xl text-gray-800 dark:text-neutral-200">
+            Free
+          </span>
+        </div>
+
+        <div class="bg-white flex justify-center lg:mt-px pt-7 px-8 dark:bg-neutral-900">
+          <ul class="space-y-2.5 text-center text-sm">
+            <li class="text-gray-800 dark:text-neutral-400">
+              1 user
+            </li>
+
+            <li class="text-gray-800 dark:text-neutral-400">
+              Plan features
+            </li>
+
+            <li class="text-gray-800 dark:text-neutral-400">
+              Product support
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-white py-8 px-8 dark:bg-neutral-900">
+          <a class="py-3 px-4 w-full inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-[#683fe4] text-[#683fe4] hover:border-blue-500 hover:text-blue-500 focus:outline-none focus:border-blue-500 focus:text-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:border-[#683fe4] dark:text-white dark:hover:text-blue-400 dark:hover:border-blue-400 dark:focus:text-blue-400 dark:focus:border-[#683fe4]" href="#">
+            Contactame
+          </a>
+        </div>
+      </div>
+
+      <div class="flex flex-col h-full text-center">
+        <div class="bg-white pt-8 pb-5 px-8 dark:bg-neutral-900">
+          <h4 class="font-medium text-lg text-gray-800 dark:text-neutral-200">Startup</h4>
+        </div>
+
+        <div class="h-full bg-white lg:mt-px lg:py-5 px-8 dark:bg-neutral-900">
+          <span class="mt-7 font-bold text-5xl text-gray-800 dark:text-neutral-200">
+            <span class="font-bold text-2xl -me-2">$</span>
+            39
+          </span>
+        </div>
+
+        <div class="bg-white flex justify-center lg:mt-px pt-7 px-8 dark:bg-neutral-900">
+          <ul class="space-y-2.5 text-center text-sm">
+            <li class="text-gray-800 dark:text-neutral-400">
+              2 users
+            </li>
+
+            <li class="text-gray-800 dark:text-neutral-400">
+              Plan features
+            </li>
+
+            <li class="text-gray-800 dark:text-neutral-400">
+              Product support
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-white py-8 px-8 dark:bg-neutral-900">
+          <a class="py-3 px-4 w-full inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-[#683fe4] text-[#683fe4] hover:border-blue-500 hover:text-blue-500 focus:outline-none focus:border-blue-500 focus:text-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:border-[#683fe4] dark:text-white dark:hover:text-blue-400 dark:hover:border-blue-400 dark:focus:text-blue-400 dark:focus:border-[#683fe4]" href="#">
+            Contactame
+          </a>
+        </div>
+      </div>
+
+      <div class="flex flex-col h-full text-center">
+        <div class="bg-white pt-8 pb-5 px-8 dark:bg-neutral-900">
+          <h4 class="font-medium text-lg text-gray-800 dark:text-neutral-200">Team</h4>
+        </div>
+
+        <div class="h-full bg-white lg:mt-px lg:py-5 px-8 dark:bg-neutral-900">
+          <span class="mt-7 font-bold text-5xl text-gray-800 dark:text-neutral-200">
+            <span class="font-bold text-2xl -me-2">$</span>
+            89
+          </span>
+        </div>
+
+        <div class="bg-white flex justify-center lg:mt-px pt-7 px-8 dark:bg-neutral-900">
+          <ul class="space-y-2.5 text-center text-sm">
+            <li class="text-gray-800 dark:text-neutral-400">
+              5 users
+            </li>
+
+            <li class="text-gray-800 dark:text-neutral-400">
+              Plan features
+            </li>
+
+            <li class="text-gray-800 dark:text-neutral-400">
+              Product support
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-white py-8 px-8 dark:bg-neutral-900">
+          <a class="py-3 px-4 w-full inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-[#683fe4] text-[#683fe4] hover:border-blue-500 hover:text-blue-500 focus:outline-none focus:border-blue-500 focus:text-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:border-[#683fe4] dark:text-white dark:hover:text-blue-400 dark:hover:border-blue-400 dark:focus:text-blue-400 dark:focus:border-[#683fe4]" href="#">
+            Contactame
+          </a>
+        </div>
+      </div>
+
+      <div class="flex flex-col h-full text-center">
+        <div class="bg-white pt-8 pb-5 px-8 dark:bg-neutral-900">
+          <h4 class="font-medium text-lg text-gray-800 dark:text-neutral-200">Enterprise</h4>
+        </div>
+
+        <div class="h-full bg-white lg:mt-px lg:py-5 px-8 dark:bg-neutral-900">
+          <span class="mt-7 font-bold text-5xl text-gray-800 dark:text-neutral-200">
+            <span class="font-bold text-2xl -me-2">$</span>
+            149
+          </span>
+        </div>
+
+        <div class="bg-white flex justify-center lg:mt-px pt-7 px-8 dark:bg-neutral-900">
+          <ul class="space-y-2.5 text-center text-sm">
+            <li class="text-gray-800 dark:text-neutral-400">
+              10 users
+            </li>
+
+            <li class="text-gray-800 dark:text-neutral-400">
+              Plan features
+            </li>
+
+            <li class="text-gray-800 dark:text-neutral-400">
+              Product support
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-white py-8 px-8 dark:bg-neutral-900">
+          <a class="py-3 px-4 w-full inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-[#683fe4] text-[#683fe4] hover:border-blue-500 hover:text-blue-500 focus:outline-none focus:border-blue-500 focus:text-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:border-[#683fe4] dark:text-white dark:hover:text-blue-400 dark:hover:border-blue-400 dark:focus:text-blue-400 dark:focus:border-[#683fe4]" href="#">
+            Contactame
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+
+{/* Contactame */}
     <div class="bg-neutral-900">
       <div class="max-w-5xl px-4 xl:px-0 py-10 lg:py-20 mx-auto">
         <div class="max-w-3xl mb-10 lg:mb-14">
