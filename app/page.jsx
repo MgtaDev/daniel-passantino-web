@@ -122,7 +122,7 @@ const Personalpage = () => {
             </div>
             <p class="mt-auto">
               <span class="font-medium text-sm text-[#683fe4] pb-1 border-b-2 border-neutral-700 group-hover:border-[#683fe4] transition focus:outline-none group-focus:border-[#683fe4]">
-                Case study
+                Ver mas
               </span>
             </p>
           </a>
@@ -143,7 +143,7 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
             </div>
             <p class="mt-auto">
               <span class="font-medium text-sm text-[#683fe4] pb-1 border-b-2 border-neutral-700 group-hover:border-[#683fe4] transition focus:outline-none group-focus:border-[#683fe4]">
-                Case study
+                Ver mas
               </span>
             </p>
           </a>
@@ -160,7 +160,7 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
             </div>
             <p class="mt-auto">
               <span class="font-medium text-sm text-[#683fe4] pb-1 border-b-2 border-neutral-700 group-hover:border-[#683fe4] transition focus:outline-none group-focus:border-[#683fe4]">
-                Case study
+                Ver mas
               </span>
             </p>
           </a>
