@@ -640,12 +640,12 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
     <div class="grid gap-px sm:grid-cols-2 lg:grid-cols-4 lg:items-center">
       <div class="flex flex-col h-full text-center">
         <div class="bg-white pt-8 pb-5 px-8 dark:bg-neutral-900">
-          <h4 class="font-medium text-lg text-gray-800 dark:text-neutral-200">Free</h4>
+          <h3 class="font-medium text-2xl text-gray-800 dark:text-neutral-200">Sitio web de una pagina</h3>
         </div>
 
         <div class="h-full bg-white lg:mt-px lg:py-5 px-8 dark:bg-neutral-900">
           <span class="mt-7 font-bold text-5xl text-gray-800 dark:text-neutral-200">
-            Free
+           299 $
           </span>
         </div>
 
@@ -674,13 +674,13 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
 
       <div class="flex flex-col h-full text-center">
         <div class="bg-white pt-8 pb-5 px-8 dark:bg-neutral-900">
-          <h4 class="font-medium text-lg text-gray-800 dark:text-neutral-200">Startup</h4>
+          <h3 class="font-medium text-2xl text-gray-800 dark:text-neutral-200">Sitio web de varias paginas</h3>
         </div>
 
         <div class="h-full bg-white lg:mt-px lg:py-5 px-8 dark:bg-neutral-900">
           <span class="mt-7 font-bold text-5xl text-gray-800 dark:text-neutral-200">
-            <span class="font-bold text-2xl -me-2">$</span>
-            39
+            
+            599 $
           </span>
         </div>
 
@@ -709,13 +709,13 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
 
       <div class="flex flex-col h-full text-center">
         <div class="bg-white pt-8 pb-5 px-8 dark:bg-neutral-900">
-          <h4 class="font-medium text-lg text-gray-800 dark:text-neutral-200">Team</h4>
+          <h3 class="font-medium text-2xl text-gray-800 dark:text-neutral-200">Sitio web E-commerce</h3>
         </div>
 
         <div class="h-full bg-white lg:mt-px lg:py-5 px-8 dark:bg-neutral-900">
           <span class="mt-7 font-bold text-5xl text-gray-800 dark:text-neutral-200">
-            <span class="font-bold text-2xl -me-2">$</span>
-            89
+            
+            799 $
           </span>
         </div>
 
@@ -744,28 +744,28 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
 
       <div class="flex flex-col h-full text-center">
         <div class="bg-white pt-8 pb-5 px-8 dark:bg-neutral-900">
-          <h4 class="font-medium text-lg text-gray-800 dark:text-neutral-200">Enterprise</h4>
+          <h3 class="font-medium text-2xl text-gray-800 dark:text-neutral-200">Mantenimiento</h3>
         </div>
 
         <div class="h-full bg-white lg:mt-px lg:py-5 px-8 dark:bg-neutral-900">
           <span class="mt-7 font-bold text-5xl text-gray-800 dark:text-neutral-200">
-            <span class="font-bold text-2xl -me-2">$</span>
-            149
+            
+           29 $ / Hora
           </span>
         </div>
 
         <div class="bg-white flex justify-center lg:mt-px pt-7 px-8 dark:bg-neutral-900">
           <ul class="space-y-2.5 text-center text-sm">
             <li class="text-gray-800 dark:text-neutral-400">
-              10 users
+              Actualizaciones
             </li>
 
             <li class="text-gray-800 dark:text-neutral-400">
-              Plan features
+              Modificaciones Especiales
             </li>
 
             <li class="text-gray-800 dark:text-neutral-400">
-              Product support
+              Creacion digital
             </li>
           </ul>
         </div>
@@ -955,7 +955,7 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
     </div>
   </main>
 
-  
+
 
   
 </>
