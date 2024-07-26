@@ -8,7 +8,7 @@ const Personalpage = () => {
 
   <main id="content">
   
-    <div class="bg-neutral-900 mb-48 flex">
+    <div class="bg-neutral-900  flex">
     <div class="area md:flex">
 			<ul class="circles">
 				<li></li>
@@ -23,6 +23,7 @@ const Personalpage = () => {
 				<li></li>
 			</ul>
       <div class="max-w-3xl  md:left-10 relative  mx-auto px-4 xl:px-0 pt-14 lg:pt-6 pb-24">
+    
         <div className='flex hidden  top-[12%] relative'>
         <Image style={{animation: 'float 3s ease-in-out infinite'}} src='/bombilla.png' className='relative md:left-[85%] md:top-[12%] ' height={60} width={60} alt='bombilla icon'/>
         <Image style={{animation: 'float 3s ease-in-out infinite 1s'}} src='/cohete.png' className='relative animate-pulse md:left-[85%] md:h-[45px] md:mt-4 ' height={40} width={50}  alt='cohete icon'/>
@@ -56,7 +57,7 @@ const Personalpage = () => {
         </div>
         
       </div>
-      <div className='max-w-2xl px-4 md:px-26 relative -mt-6  lg:pt-20'>
+      <div className='max-w-2xl px-4 md:px-26 hidden relative -mt-6  lg:pt-20'>
         <Image src='/man-in-blue-jackset-701x1024.png'  height={400} width={400} alt='Main Image'/>
       </div>
 		</div>
@@ -79,7 +80,7 @@ const Personalpage = () => {
     </div>
 
 
-    <section class="bg-black text-white py-8 px-28">  
+    <section class="bg-black text-white py-8 md:px-28">  
   <div class="logos group relative overflow-hidden whitespace-nowrap py-10 [mask-image:_linear-gradient(to_right,_transparent_0,_white_128px,white_calc(100%-128px),_transparent_100%)]">
     <div  style={{animation: 'slide-left  12s linear infinite '}} class="group-hover:animation-pause inline-block w-max">
       <img class="mx-4 inline h-16" src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg" alt="Transistor" />
@@ -631,8 +632,8 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
 <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
   {/* <!-- Title --> */}
   <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-    <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Find the right plan for your team</h2>
-    <p class="mt-1 text-gray-600 dark:text-neutral-400">Pay as you go service, cancel anytime.</p>
+    <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Precios para la creacion de sitios web</h2>
+    <p class="mt-1 text-gray-600 dark:text-neutral-400">Tarifas</p>
   </div>
 {/* <!-- End Title --> */}
 
@@ -666,9 +667,13 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
         </div>
 
         <div class="bg-white py-8 px-8 dark:bg-neutral-900">
-          <a class="py-3 px-4 w-full inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-[#683fe4] text-[#683fe4] hover:border-blue-500 hover:text-blue-500 focus:outline-none focus:border-blue-500 focus:text-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:border-[#683fe4] dark:text-white dark:hover:text-blue-400 dark:hover:border-blue-400 dark:focus:text-blue-400 dark:focus:border-[#683fe4]" href="#">
-            Contactame
-          </a>
+        <a class="group inline-flex text-white items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm  rounded-full focus:outline-none" href="#">
+                    Contactame por Whatsapp
+                    <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </a>
         </div>
       </div>
 
@@ -701,9 +706,13 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
         </div>
 
         <div class="bg-white py-8 px-8 dark:bg-neutral-900">
-          <a class="py-3 px-4 w-full inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-[#683fe4] text-[#683fe4] hover:border-blue-500 hover:text-blue-500 focus:outline-none focus:border-blue-500 focus:text-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:border-[#683fe4] dark:text-white dark:hover:text-blue-400 dark:hover:border-blue-400 dark:focus:text-blue-400 dark:focus:border-[#683fe4]" href="#">
-            Contactame
-          </a>
+        <a class="group inline-flex text-white items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm  rounded-full focus:outline-none" href="#">
+                    Contactame por Whatsapp
+                    <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </a>
         </div>
       </div>
 
@@ -736,9 +745,13 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
         </div>
 
         <div class="bg-white py-8 px-8 dark:bg-neutral-900">
-          <a class="py-3 px-4 w-full inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-[#683fe4] text-[#683fe4] hover:border-blue-500 hover:text-blue-500 focus:outline-none focus:border-blue-500 focus:text-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:border-[#683fe4] dark:text-white dark:hover:text-blue-400 dark:hover:border-blue-400 dark:focus:text-blue-400 dark:focus:border-[#683fe4]" href="#">
-            Contactame
-          </a>
+        <a class="group inline-flex text-white items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm  rounded-full focus:outline-none" href="#">
+                    Contactame por Whatsapp
+                    <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </a>
         </div>
       </div>
 
@@ -771,9 +784,7 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
         </div>
 
         <div class="bg-white py-8 px-8 dark:bg-neutral-900">
-          <a class="py-3 px-4 w-full inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-[#683fe4] text-[#683fe4] hover:border-blue-500 hover:text-blue-500 focus:outline-none focus:border-blue-500 focus:text-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:border-[#683fe4] dark:text-white dark:hover:text-blue-400 dark:hover:border-blue-400 dark:focus:text-blue-400 dark:focus:border-[#683fe4]" href="#">
-            Contactame
-          </a>
+        
         </div>
       </div>
     </div>
