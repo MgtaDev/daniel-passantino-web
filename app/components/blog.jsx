@@ -3,7 +3,7 @@ import React from 'react'
 const ElBlog = () => {
   return (
 <>
-<div class=" lg:mx-48 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 ">
+<div class=" lg:mx-20 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 ">
 <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
 <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">El Blog</h2>
 <p class="mt-1 text-gray-600 dark:text-neutral-400">Descubre mi blog, las preguntas que puedes hacerme, las herramientas que uso y la formación que realizo.</p>

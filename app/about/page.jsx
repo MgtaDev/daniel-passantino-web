@@ -172,6 +172,7 @@ const About = () => {
     </div>
 
    <ElBlog/>
+  
  </>
 
   )

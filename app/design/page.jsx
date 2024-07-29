@@ -6,8 +6,8 @@ import Servicios from '../components/otros-servicios'
 const Diseño  = () => {
   return (
     <>
-<div class="overflow-hidden">
-  <div class=" mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="overflow-hidden lg:mx-24">
+  <div class="mx-auto justify-center px-4 sm:px-6 lg:px-8 py-12">
     <div class="relative mx-auto max-w-4xl grid space-y-5 sm:space-y-10">
       <div class="text-center">
        
@@ -138,8 +138,8 @@ const Diseño  = () => {
       </div>
     </div>
   </div>
-  <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-    <div class="grid lg:grid-cols-2 gap-6">
+  <div class=" px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div class="grid lg:grid-cols-1 gap-12">
       <a class="group sm:flex rounded-xl focus:outline-none" href="#">
         <div class="shrink-0 relative rounded-xl overflow-hidden h-[200px] sm:w-[250px] sm:h-[350px] w-full">
           <img class="size-full absolute top-0 start-0 object-cover" src="https://images.unsplash.com/photo-1664574654529-b60630f33fdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>

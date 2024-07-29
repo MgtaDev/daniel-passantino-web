@@ -5,6 +5,7 @@ import Servicios from '../components/otros-servicios'
 
 const Contact = () => {
   return (
+    <>
 <div className='lg:mx-20'>
 {/* <!-- Hero --> */}
 <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
@@ -156,8 +157,9 @@ const Contact = () => {
   <Servicios/>
 
 
-<ElBlog/>
 </div>
+<ElBlog/>
+</>
   )
 }
 

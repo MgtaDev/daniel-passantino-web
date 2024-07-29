@@ -280,8 +280,8 @@ const Blog = () => {
 
       </div>
     </div>
-    <ElBlog/>
     </div>
+    <ElBlog/>
     
 
 </>

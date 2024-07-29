@@ -3,6 +3,7 @@ import ElBlog from '../components/blog'
 
 const Reviews = () => {
   return (
+    <>
 <div class="overflow-hidden lg:mx-20 bg-gray-800 dark:bg-neutral-950">
   <div class="relative max-w-[85rem] px-4  sm:px-6 lg:px-8 lg:py-2 mx-auto">
   <div class="overflow-hidden">
@@ -248,8 +249,9 @@ const Reviews = () => {
 
   </div>
 
-  <ElBlog/>
 </div>
+  <ElBlog/>
+  </>
   )
 }
 

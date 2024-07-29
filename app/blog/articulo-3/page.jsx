@@ -2,7 +2,8 @@ import React from 'react'
 
 const Articulo3 = () => {
   return (
-    // <!-- Blog Article -->
+    <>
+    <div className='lg:mx-20'>
     <div class="max-w-[75rem] px-4 sm:px-6 lg:px-8 mx-auto">
       <div class="grid lg:grid-cols-5  gap-y-8 lg:gap-y-0 lg:gap-x-6">
 
@@ -278,7 +279,11 @@ const Articulo3 = () => {
 
       </div>
     </div>
-    // <!-- End Blog Article -->
+    </div>
+    <ElBlog/>
+    
+
+</>
   )
 }
 
