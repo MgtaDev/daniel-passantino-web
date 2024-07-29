@@ -1,4 +1,5 @@
 import React from 'react'
+import ElBlog from '../../components/blog'
 
 const Articulo6 = () => {
   return (
@@ -280,7 +281,7 @@ const Articulo6 = () => {
       </div>
     </div>
     </div>
-    <ElBlog/>
+ <ElBlog/>
     
 
 </>

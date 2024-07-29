@@ -1,4 +1,5 @@
 import React from 'react'
+import ElBlog from '../../components/blog'
 
 const Articulo1 = () => {
   return (

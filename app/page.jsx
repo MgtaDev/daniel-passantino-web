@@ -12,15 +12,15 @@ const Personalpage = () => {
     <div class="bg-neutral-900  flex">
     <div class="area md:flex">
 			
-      <div class="max-w-3xl  md:left-14 lg:left-14 relative  mx-auto px-4 xl:px-0 pt-14 lg:pt-6 pb-24">
+      <div class="max-w-2xl mr-32  md:left-28 lg:left-28 relative  mx-auto px-4 xl:px-0 pt-14 lg:pt-4 pb-24">
     
-        <div className='flex top-[12%] relative'>
-        <Image style={{animation: 'float 3s ease-in-out infinite'}} src='/bombilla.png' className='relative md:left-[85%] md:top-[12%] ' height={60} width={60} alt='bombilla icon'/>
-        <Image style={{animation: 'float 3s ease-in-out infinite 1s'}} src='/cohete.png' className='relative animate-pulse md:left-[85%] md:h-[45px] md:mt-4 ' height={40} width={50}  alt='cohete icon'/>
+        <div className='top-[12%] hidden  md:flex lg:flex relative'>
+        <Image style={{animation: 'float 3s ease-in-out infinite'}} src='/bombilla.png' className='relative md:left-[80%] md:top-[12%] ' height={60} width={60} alt='bombilla icon'/>
+        <Image style={{animation: 'float 3s ease-in-out infinite 1s'}} src='/cohete.png' className='relative animate-pulse md:left-[80%] md:h-[45px] md:mt-4 ' height={40} width={50}  alt='cohete icon'/>
         </div>
        
        <h1 class="font-semibold lg:text-start text-center text-white  text-5xl md:text-6xl">
-        <span class=" bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]">Daniel Passantino</span> Transformando tus ideas en realidad
+        <span class=" bg-clip-text lg:-ml-5 text-transparent bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]"> <span className='lg:ml-3'>Daniel Passantino</span></span><br/> <span className='lg:-ml-3'> Transformando tus</span> <span className='lg:-ml-1'>Ideas en realidad</span> 
         </h1>
 
         <div className='flex md:hidden justify-center  lg:hidden mt-4 relative'>
@@ -35,8 +35,10 @@ const Personalpage = () => {
           <p class="mt-5 text-center md:text-left text-neutral-400 text-lg">
           He creado y actualmente administro más de 30 sitios web para pequeñas y medianas empresas en Francia, Portugal y Japón. 
           </p>
+          
+          
         </div>
-        <div className='mt-12 -ml-1 justify-center lg:justify-start flex lg:flex-none'>
+        <div className='mt-12  justify-center lg:justify-start flex lg:flex-none'>
         <a class="group inline-flex text-white items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm  rounded-full focus:outline-none" href="#">
                     Contactame por Whatsapp
                     <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -47,7 +49,7 @@ const Personalpage = () => {
         </div>
         
       </div>
-      <div className='max-w-2xl px-4 md:px-26 hidden lg:block relative -mt-6  lg:pt-20'>
+      <div className='max-w-2xl px-4  hidden lg:block relative -mt-6  lg:pt-20'>
         <Image src='/man-in-blue-jackset-701x1024.png'  height={400} width={400} alt='Main Image'/>
       </div>
 		</div>
@@ -76,7 +78,6 @@ const Personalpage = () => {
     </div>
   </div>
     </section>
-
 
 {/* Servicios */}
     <div class="bg-neutral-900 bg-gradient-to-t from-black to-transparent">
