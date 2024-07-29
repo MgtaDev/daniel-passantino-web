@@ -10,18 +10,7 @@ const Personalpage = () => {
   
     <div class="bg-neutral-900  flex">
     <div class="area md:flex">
-			<ul class="circles">
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
+			
       <div class="max-w-3xl  md:left-10 relative  mx-auto px-4 xl:px-0 pt-14 lg:pt-6 pb-24">
     
         <div className='flex hidden  top-[12%] relative'>
@@ -645,7 +634,7 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
         </div>
 
         <div class="h-full bg-white lg:mt-px lg:py-5 px-8 dark:bg-neutral-900">
-          <span class="mt-7 font-bold text-5xl text-gray-800 dark:text-neutral-200">
+          <span class="mt-7 font-bold text-5xl bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]">
            299 $
           </span>
         </div>
@@ -683,7 +672,7 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
         </div>
 
         <div class="h-full bg-white lg:mt-px lg:py-5 px-8 dark:bg-neutral-900">
-          <span class="mt-7 font-bold text-5xl text-gray-800 dark:text-neutral-200">
+          <span class="mt-7 font-bold text-5xl bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]">
             
             599 $
           </span>
@@ -722,7 +711,7 @@ Creo tu contenido, tus estrategias y tu copywriting para tener impacto y resulta
         </div>
 
         <div class="h-full bg-white lg:mt-px lg:py-5 px-8 dark:bg-neutral-900">
-          <span class="mt-7 font-bold text-5xl text-gray-800 dark:text-neutral-200">
+          <span class="mt-7 font-bold text-5xl text-gray-800 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]">
             
             799 $
           </span>

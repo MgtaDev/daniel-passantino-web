@@ -1,8 +1,10 @@
 import React from 'react'
+import ElBlog from '../components/blog'
 
 const Blog = () => {
   return (
-    // <!-- Blog Article -->
+<>
+    <div className='lg:mx-20'>
     <div class="max-w-[75rem] px-4 sm:px-6 lg:px-8 mx-auto">
       <div class="grid lg:grid-cols-5  gap-y-8 lg:gap-y-0 lg:gap-x-6">
 
@@ -278,7 +280,11 @@ const Blog = () => {
 
       </div>
     </div>
-    // <!-- End Blog Article -->
+    <ElBlog/>
+    </div>
+    
+
+</>
   )
 }
 
