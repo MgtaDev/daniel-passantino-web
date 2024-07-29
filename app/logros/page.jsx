@@ -11,9 +11,9 @@ const Logros = () => {
             <p class="text-xs font-semibold text-gray-500 tracking-wide uppercase mb-3 dark:text-neutral-200">
               Portafolio
             </p>
-            <h1 class="text-3xl text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-neutral-200">
+            <h3 class="text-3xl text-gray-800 font-bold sm:text-5xl lg:text-5xl lg:mx-8 lg:leading-tight dark:text-neutral-200">
               Conoce las opiniones de <span class="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]">Nuestros clientes</span>
-            </h1>
+            </h3>
           </div>
 
           <div class="sm:flex sm:justify-center sm:items-center text-center sm:text-start">

@@ -5,8 +5,9 @@ import Servicios from '../components/otros-servicios'
 
 const Diseño  = () => {
   return (
+    <>
 <div class="overflow-hidden">
-  <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  <div class=" mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <div class="relative mx-auto max-w-4xl grid space-y-5 sm:space-y-10">
       <div class="text-center">
        
@@ -75,7 +76,7 @@ const Diseño  = () => {
       </div>
     </div>
   </div> 
-  <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+  <div class=" px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
     <div class="grid md:grid-cols-2 gap-12">
       <div class="lg:w-3/4">
         <h2 class="text-3xl text-center  text-gray-800 font-bold lg:text-4xl dark:text-white">
@@ -247,8 +248,9 @@ const Diseño  = () => {
   <Servicios/>
 
 
-<ElBlog/>
 </div>
+<ElBlog/>
+</>
   )
 }
 
