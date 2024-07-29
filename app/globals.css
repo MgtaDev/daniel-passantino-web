@@ -83,12 +83,7 @@ body {
 /*
 -- Start BackGround Animation 
 */
-.area {
-	
-	background: -webkit-linear-gradient(to left, #0a0b1c, #0a0b18);
-	width: 100%;
-	z-index: 4;
-}
+
 
 @keyframes slide-left{
 	from { transform: translateX(0); }

@@ -55,7 +55,7 @@ const Personalpage = () => {
     </div>
 
 {/* Carrousel de Marcas */}
-    <section class=" text-white py-8 md:px-28">  
+    <section class="bg-neutral-900  text-white py-8 md:px-28">  
   <div class="logos group relative overflow-hidden whitespace-nowrap py-10 [mask-image:_linear-gradient(to_right,_transparent_0,_white_128px,white_calc(100%-128px),_transparent_100%)]">
     <div  style={{animation: 'slide-left  12s linear infinite '}} class="group-hover:animation-pause inline-block w-max">
       <img class="mx-4 inline h-16" src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg" alt="Transistor" />
