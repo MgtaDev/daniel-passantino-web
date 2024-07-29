@@ -11,8 +11,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 17, 17, 17;
+    --background-end-rgb: 17, 17, 17;
   }
 }
 @layer utilities {
@@ -83,7 +83,12 @@ body {
 /*
 -- Start BackGround Animation 
 */
-
+.area {
+	
+	background: -webkit-linear-gradient(to left, #0a0b1c, #0a0b18);
+	width: 100%;
+	z-index: 4;
+}
 
 @keyframes slide-left{
 	from { transform: translateX(0); }
