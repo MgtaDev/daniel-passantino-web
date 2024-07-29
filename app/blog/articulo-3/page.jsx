@@ -3,11 +3,11 @@ import React from 'react'
 const Articulo3 = () => {
   return (
     // <!-- Blog Article -->
-    <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
-      <div class="grid lg:grid-cols-3 gap-y-8 lg:gap-y-0 lg:gap-x-6">
+    <div class="max-w-[75rem] px-4 sm:px-6 lg:px-8 mx-auto">
+      <div class="grid lg:grid-cols-5  gap-y-8 lg:gap-y-0 lg:gap-x-6">
 
         {/* <!-- Content --> */}
-        <div class="lg:col-span-2">
+        <div class="lg:col-span-3 lg:ml-14">
           <div class="py-8 lg:pe-8">
             <div class="space-y-5 lg:space-y-8">
               <a class="inline-flex items-center gap-x-1.5 text-sm text-gray-600 decoration-2 hover:underline focus:outline-none focus:underline dark:text-blue-500" href="#">
@@ -169,7 +169,7 @@ const Articulo3 = () => {
         {/* <!-- End Content --> */}
     
         {/* <!-- Sidebar --> */}
-        <div class="lg:col-span-1 lg:right-0 lg:top-0 lg:fixed lg:w-1/3 lg:h-[90vh] mt-20 mr-4 rounded-lg lg:bg-gradient-to-r lg:from-gray-50 lg:via-transparent lg:to-transparent dark:from-neutral-800 overflow-y-auto">
+        <div class="lg:col-span-2  lg:right-0 lg:top-14 relative ml-6 lg:ml-0 lg:mr-4 lg:h-[550px] mt-0 rounded-lg lg:bg-gradient-to-r lg:from-gray-50 lg:via-transparent lg:to-transparent dark:from-neutral-800 ">
           <div class="sticky top-0 start-0  py-8 lg:ps-8">
             {/* <!-- Avatar Media --> */}
             <div class="group flex items-center gap-x-3 border-b border-gray-200 pb-8 mb-8 dark:border-neutral-700">
@@ -193,69 +193,80 @@ const Articulo3 = () => {
               </div>
             </div>
     
-            <div class="pr-4">
-                <div className='space-y-6'>
+            <div class="pr-4 lg:-ml-1">
+                <div className='space-y-6 overflow-y-scroll h-[40vh] min-h-[400px]'>
                 <h4>Lee otros articulos:</h4>
-              <a class="group flex items-center gap-x-6 focus:outline-none" href="#">
+              <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-1">
                 <div class="grow">
                   <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
                     5 Reasons to Not start a UX Designer Career in 2022/2023
                   </span>
                 </div>
     
-                <div class="shrink-0 relative rounded-lg overflow-hidden size-20">
+                <div class="shrink-0 relative mr-4 rounded-lg overflow-hidden size-20">
                   <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
                 </div>
               </a>
     
-              <a class="group flex items-center gap-x-6 focus:outline-none" href="#">
+              <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-2">
                 <div class="grow">
                   <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
                     If your UX Portfolio has this 20% Well Done, it Will Give You an 80% Result
                   </span>
                 </div>
     
-                <div class="shrink-0 relative rounded-lg overflow-hidden size-20">
+                <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
                   <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1542125387-c71274d94f0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
                 </div>
               </a>
     
-              <a class="group flex items-center gap-x-6 focus:outline-none" href="#">
+              <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-3">
                 <div class="grow">
                   <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
                     7 Principles of Icon Design
                   </span>
                 </div>
     
-                <div class="shrink-0 relative rounded-lg overflow-hidden size-20">
+                <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
                   <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
                 </div>
               </a>
 
-              <a class="group flex items-center gap-x-6 focus:outline-none" href="#">
+              <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-4">
                 <div class="grow">
                   <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
                     7 Principles of Icon Design
                   </span>
                 </div>
     
-                <div class="shrink-0 relative rounded-lg overflow-hidden size-20">
+                <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
                   <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
                 </div>
               </a>
 
-              <a class="group flex items-center gap-x-6 focus:outline-none" href="#">
+              <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-5">
                 <div class="grow">
                   <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
                     7 Principles of Icon Design
                   </span>
                 </div>
     
-                <div class="shrink-0 relative rounded-lg overflow-hidden size-20">
+                <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
                   <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
                 </div>
               </a>
            
+              <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-6">
+                <div class="grow">
+                  <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
+                    7 Principles of Icon Design
+                  </span>
+                </div>
+    
+                <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
+                  <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
+                </div>
+              </a>
                 </div>
                  
               

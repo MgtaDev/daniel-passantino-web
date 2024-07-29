@@ -4,6 +4,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    'node_modules/preline/dist/*.js',
   ],
   theme: {
     extend: {
@@ -21,6 +22,10 @@ module.exports = {
       animation: {
         'slide-left': 'slide-left 8s linear infinite',
       },
+      plugins: [
+        // ...
+        require('preline/plugin'),
+    ] 
     },
   },
   plugins: [],
