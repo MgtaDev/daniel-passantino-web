@@ -6,23 +6,25 @@ import Servicios from '../components/otros-servicios'
 const Redes = () => {
   return (
     <>
-    <div class="max-w-[85rem] mx-auto px-4 pt-8 sm:px-6 lg:px-8">
-      <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
+    <div class="max-w-[85rem] mx-auto px-4 pt-8 lg:mx-20 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-4 lg:mt-8 md:gap-8 xl:gap-20 md:items-center">
         <div>
-          <h1 class="block text-3xl text-center font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white">Tus redes sociales en<span class="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]"> Buenas manos</span></h1>
-          <p class="mt-3 text-lg text-gray-800 text-center dark:text-neutral-400">Cuidar la gestión de las redes sociales de tu empresa requiere mucho tiempo además de una estrategia si quieres resultados. Si estás un poco confundido acerca de esto, has venido al lugar correcto.</p>
+          <h3 class="block text-3xl text-center md:text-start lg:text-start font-bold text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">Tus redes sociales en<span class="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]"> Buenas manos</span></h3>
+          <p class="mt-3 text-lg text-gray-800 md:text-start lg:text-start  text-center dark:text-neutral-400">Cuidar la gestión de las redes sociales de tu empresa requiere mucho tiempo además de una estrategia si quieres resultados. Si estás un poco confundido acerca de esto, has venido al lugar correcto.</p>
     
           <div class="mt-7 grid gap-3 w-full sm:inline-flex">
-            <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4] disabled:opacity-50 disabled:pointer-events-none" href="#">
-              Contactame por whatsapp
-              <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-            </a>
-          
+          <a class="group inline-flex text-white items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm  rounded-full focus:outline-none" href="#">
+                    Contactame por Whatsapp
+                    <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </a>
           </div>
-        <div className='flex justify-center'>
-        <div class="mt-6 lg:mt-10 align-center ">
-            <div class="py-5 justify-center">
-              <div class="flex gap-x-1 justify-center">
+        <div className='lg:flex-none lg:justify-start flex justify-center'>
+        <div class="mt-6 lg:mt-10 lg:align-center ">
+            <div class="py-5 lg:justify-center">
+              <div class="flex gap-x-1 lg:justify-start  justify-center">
                 <svg class="size-4 text-yellow-500" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z" fill="currentColor"/>
                 </svg>
@@ -44,7 +46,7 @@ const Redes = () => {
                 <span class="font-bold">4.6</span> /5 - from 12k reviews
               </p>
     
-              <div class="mt-5 flex justify-center">
+              <div class="mt-5 lg:flex-none flex lg:justify-start  justify-center">
                 <svg class="h-auto w-16 text-gray-800 dark:text-white" width="80" height="27" viewBox="0 0 80 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M20.558 9.74046H11.576V12.3752H17.9632C17.6438 16.0878 14.5301 17.7245 11.6159 17.7245C7.86341 17.7245 4.58995 14.7704 4.58995 10.6586C4.58995 6.62669 7.70373 3.51291 11.6159 3.51291C14.6498 3.51291 16.4063 5.42908 16.4063 5.42908L18.2426 3.51291C18.2426 3.51291 15.8474 0.878184 11.4961 0.878184C5.94724 0.838264 1.67578 5.50892 1.67578 10.5788C1.67578 15.5289 5.70772 20.3592 11.6558 20.3592C16.8854 20.3592 20.7177 16.8063 20.7177 11.4969C20.7177 10.3792 20.558 9.74046 20.558 9.74046Z" fill="currentColor"/>
                   <path d="M27.8621 7.78442C24.1894 7.78442 21.5547 10.6587 21.5547 14.012C21.5547 17.4451 24.1096 20.3593 27.9419 20.3593C31.415 20.3593 34.2094 17.7645 34.2094 14.0918C34.1695 9.94011 30.896 7.78442 27.8621 7.78442ZM27.902 10.2994C29.6984 10.2994 31.415 11.7764 31.415 14.0918C31.415 16.4072 29.7383 17.8842 27.902 17.8842C25.906 17.8842 24.3491 16.2874 24.3491 14.0519C24.3092 11.8962 25.8661 10.2994 27.902 10.2994Z" fill="currentColor"/>
@@ -62,7 +64,7 @@ const Redes = () => {
           
         </div>
     
-        <div class="relative ">
+        <div class="relative -top-16 left-4 ">
           <img class="w-full rounded-md" src="/creation-pour-les-reseaux-sociaux.webp" alt="Hero Image"/>
           <div class="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
     
@@ -92,7 +94,7 @@ const Redes = () => {
     </div>
 
    
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+<div class="lg:mx-20 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
   <div class="grid sm:grid-cols-2 sm:items-center gap-8">
     <div class="sm:order-1">
       <p class="mb-5  justify-center flex text-center items-center gap-1.5 py-1.5 px-3 rounded-md text-xs font-medium bg-gray-100 text-gray-800 dark:bg-neutral-800 dark:text-neutral-200">
@@ -126,19 +128,26 @@ Utilizo la herramienta profesional Photoshop para realizar recortes o montajes.<
   </div>
 </div>
 
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-  <div class="grid sm:grid-cols-2 sm:items-center gap-8">
-  <div class="sm:order-2">
-  <p class="mb-5  justify-center flex text-center items-center gap-1.5 py-1.5 px-3 rounded-md text-xs font-medium bg-gray-100 text-gray-800 dark:bg-neutral-800 dark:text-neutral-200">
-       Video
-      </p>
-
-      <div class="relative pt-[50%] sm:pt-[100%] rounded-lg">
-        <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="/Photos-pour-les-reseaux-sociaux.webp" alt="Blog Image"/>
-      </div>
-    </div>
+{/* Cotizacion */}
+<div class="text-center lg:mx-20">
     
-    <div class="sm:order-1">
+    <h2 class="text-3xl mx-4 text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-neutral-200">
+    Precios de gestion de Redes sociales
+    </h2>
+    <a class="group inline-flex text-whitem mt-4 items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm  rounded-full focus:outline-none" href="#">
+                    Contactame por Whatsapp
+                    <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </a>
+    </div>
+{/* Cotizacion */}
+
+<div class=" lg:mx-20 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+  <div class="grid sm:grid-cols-2 sm:items-center gap-8">
+  
+    <div class="sm:order-2">
      
       <h2 class="text-2xl font-bold md:text-3xl lg:text-4xl text-center lg:leading-tight xl:text-5xl xl:leading-tight text-gray-800 dark:text-neutral-200">
         <a class="hover:text-blue-600 focus:outline-none  focus:text-blue-600 dark:text-neutral-300 dark:hover:text-white dark:focus:text-white" href="#">
@@ -156,21 +165,17 @@ Utilizo la herramienta profesional Photoshop para realizar recortes o montajes.<
       </div>
     </div>
 
-{/* Cotizacion */}
-    <div class="text-center">
-    
-    <h2 class="text-3xl mx-4 text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-neutral-200">
-    Precios de gestion de Redes sociales
-    </h2>
-    <a class="group inline-flex text-whitem mt-4 items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm  rounded-full focus:outline-none" href="#">
-                    Contactame por Whatsapp
-                    <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                      <path d="M5 12h14" />
-                      <path d="m12 5 7 7-7 7" />
-                    </svg>
-                  </a>
+    <div class="sm:order-1">
+  <p class="mb-5  justify-center flex text-center items-center gap-1.5 py-1.5 px-3 rounded-md text-xs font-medium bg-gray-100 text-gray-800 dark:bg-neutral-800 dark:text-neutral-200">
+       Video
+      </p>
+
+      <div class="relative pt-[50%] sm:pt-[100%] rounded-lg">
+        <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="/Photos-pour-les-reseaux-sociaux.webp" alt="Blog Image"/>
+      </div>
     </div>
-{/* Cotizacion */}
+    
+
   
 
   </div>
