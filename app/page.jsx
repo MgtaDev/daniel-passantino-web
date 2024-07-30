@@ -169,7 +169,7 @@ const Personalpage = () => {
     </div>
 
 {/* Portafolio */}
-    <div class="relative lg:mx-20 flex min-h-screen flex-col justify-center overflow-hidden py-6 sm:py-12">
+    <div class="relative bg-neutral-900 lg:mx-20 flex min-h-screen flex-col justify-center overflow-hidden py-6 sm:py-12">
       <div class="mx-auto max-w-screen-xl px-4 w-full">
       <div class="overflow-hidden mb-6">
           <div class=" mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -598,8 +598,8 @@ const Personalpage = () => {
     </div>
   
 {/* <!-- Pricing --> */}
-    <div class="lg:mx-16  px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-      {/* <!-- Title --> */}
+    <div class="lg:mx-16 bg-neutral-900  px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      
        {/* Title */}
        <div class="overflow-hidden">
           <div class=" mx-auto px-4 sm:px-6  h-80 lg:px-8 py-4">
@@ -645,23 +645,21 @@ const Personalpage = () => {
         {/* Title */}
       
 
-       
-  
-
-      <div class="relative shadow-2xl shadow-gray-500   before:absolute before:inset-0 before:-z-[1] before:bg-[radial-gradient(closest-side,#cbd5e1,transparent)] dark:before:bg-[radial-gradient(closest-side,#525252,transparent)] mt-12">
+       {/* Pricing Cards */}
+      <div class="relative before:absolute before:inset-0 before:-z-[1]  mt-12">
         <div class="grid gap-px sm:grid-cols-2 lg:grid-cols-4 lg:items-center">
-          <div class="flex flex-col h-full text-center">
-            <div class="bg-white pt-8 pb-5 px-8 dark:bg-neutral-900">
+          <div class="flex bg-gradient-to-bl from-neutral-800 via-neutral-900 to-neutral-950 border-neutral-800 border rounded-xl  flex-col h-full text-center">
+            <div class=" pt-8 pb-5 px-8 ">
               <h3 class="font-medium text-2xl text-gray-800 dark:text-neutral-200">Sitio web de una pagina</h3>
             </div>
 
-            <div class="h-full bg-white lg:mt-px lg:py-5 px-8 dark:bg-neutral-900">
+            <div class="h-full lg:mt-px lg:py-5 px-8 ">
               <span class="mt-7 font-bold text-5xl bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]">
               299 $
               </span>
             </div>
 
-            <div class="bg-white flex justify-center lg:mt-px pt-7 px-8 dark:bg-neutral-900">
+            <div class="  flex justify-center lg:mt-px pt-7 px-8 ">
               <ul class="space-y-2.5 text-center text-sm">
                 <li class="text-gray-800 dark:text-neutral-400">
                   1 user
@@ -677,7 +675,7 @@ const Personalpage = () => {
               </ul>
             </div>
 
-            <div class="bg-white py-8 px-8 dark:bg-neutral-900">
+            <div class=" py-8 px-8 ">
             <a class="group inline-flex text-white items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm  rounded-full focus:outline-none" href="#">
                         Contactame
                         <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -688,19 +686,19 @@ const Personalpage = () => {
             </div>
           </div>
 
-          <div class="flex flex-col h-full text-center">
-            <div class="bg-white pt-8 pb-5 px-8 dark:bg-neutral-900">
+          <div class="flex bg-gradient-to-bl from-neutral-800 via-neutral-900 to-neutral-950 border-neutral-800 border rounded-xl  flex-col h-full text-center">
+            <div class=" pt-8 pb-5 px-8 ">
               <h3 class="font-medium text-2xl text-gray-800 dark:text-neutral-200">Sitio web de varias paginas</h3>
             </div>
 
-            <div class="h-full bg-white lg:mt-px lg:py-5 px-8 dark:bg-neutral-900">
+            <div class="h-full  lg:mt-px lg:py-5 px-8">
               <span class="mt-7 font-bold text-5xl bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]">
                 
                 599 $
               </span>
             </div>
 
-            <div class="bg-white flex justify-center lg:mt-px pt-7 px-8 dark:bg-neutral-900">
+            <div class=" flex justify-center lg:mt-px pt-7 px-8 ">
               <ul class="space-y-2.5 text-center text-sm">
                 <li class="text-gray-800 dark:text-neutral-400">
                   2 users
@@ -716,7 +714,7 @@ const Personalpage = () => {
               </ul>
             </div>
 
-            <div class="bg-white py-8 px-8 dark:bg-neutral-900">
+            <div class=" py-8 px-8 ">
             <a class="group inline-flex text-white items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm  rounded-full focus:outline-none" href="#">
                         Contactame
                         <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -727,19 +725,19 @@ const Personalpage = () => {
             </div>
           </div>
 
-          <div class="flex flex-col h-full text-center">
-            <div class="bg-white pt-8 pb-5 px-8 dark:bg-neutral-900">
+          <div class="flex bg-gradient-to-bl from-neutral-800 via-neutral-900 to-neutral-950 border-neutral-800 border rounded-xl  flex-col h-full text-center">
+            <div class=" pt-8 pb-5 px-8 ">
               <h3 class="font-medium text-2xl text-gray-800 dark:text-neutral-200">Sitio web E-commerce</h3>
             </div>
 
-            <div class="h-full bg-white lg:mt-px lg:py-5 px-8 dark:bg-neutral-900">
+            <div class="h-full  lg:mt-px lg:py-5 px-8 ">
               <span class="mt-7 font-bold text-5xl text-gray-800 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]">
                 
                 799 $
               </span>
             </div>
 
-            <div class="bg-white flex justify-center lg:mt-px pt-7 px-8 dark:bg-neutral-900">
+            <div class="flex justify-center lg:mt-px pt-7 px-8 ">
               <ul class="space-y-2.5 text-center text-sm">
                 <li class="text-gray-800 dark:text-neutral-400">
                   5 users
@@ -755,7 +753,7 @@ const Personalpage = () => {
               </ul>
             </div>
 
-            <div class="bg-white py-8 px-8 dark:bg-neutral-900">
+            <div class="py-8 px-8 ">
             <a class="group inline-flex text-white items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm  rounded-full focus:outline-none" href="#">
                         Contactame
                         <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -766,19 +764,19 @@ const Personalpage = () => {
             </div>
           </div>
 
-          <div class="flex flex-col h-full text-center">
-            <div class="bg-white pt-8 pb-5 px-8 dark:bg-neutral-900">
+          <div class="flex bg-gradient-to-bl from-neutral-800 via-neutral-900 to-neutral-950 border-neutral-800 border rounded-xl  flex-col h-full text-center">
+            <div class=" pt-8 pb-5 px-8">
               <h3 class="font-medium text-2xl text-gray-800 dark:text-neutral-200">Mantenimiento</h3>
             </div>
 
-            <div class="h-full bg-white lg:mt-px lg:py-5 px-8 dark:bg-neutral-900">
+            <div class="h-full lg:mt-px lg:py-5 px-8">
               <span class="mt-7 font-bold text-5xl text-gray-800 dark:text-neutral-200">
                 
               29 $ / Hora
               </span>
             </div>
 
-            <div class="bg-white flex justify-center lg:mt-px pt-7 px-8 dark:bg-neutral-900">
+            <div class="flex justify-center lg:mt-px pt-7 px-8">
               <ul class="space-y-2.5 text-center text-sm">
                 <li class="text-gray-800 dark:text-neutral-400">
                   Actualizaciones
@@ -794,7 +792,7 @@ const Personalpage = () => {
               </ul>
             </div>
 
-            <div class="bg-white py-8 px-8 dark:bg-neutral-900">
+            <div class=" py-8 px-8 ">
             
             </div>
           </div>

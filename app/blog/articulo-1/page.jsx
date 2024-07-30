@@ -14,21 +14,21 @@ const Articulo1 = () => {
             <div class="space-y-5 lg:space-y-8">
               <a class="inline-flex items-center gap-x-1.5 text-sm text-gray-600 decoration-2 hover:underline focus:outline-none focus:underline dark:text-blue-500" href="#">
                 <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-                Back to Home
+                Volver al inicio
               </a>
     
-              <h2 class="text-3xl font-bold lg:text-5xl dark:text-white">Mi Blog Personal</h2>
+              <h2 class="text-3xl font-bold lg:text-5xl dark:text-white">Por que tu negocio necesita una pagina web profesional?</h2>
     
               <div class="flex items-center gap-x-5">
                 <a class="inline-flex items-center gap-1.5 py-1 px-3 sm:py-2 sm:px-4 rounded-full text-xs sm:text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-none focus:bg-gray-200 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800" href="#">
                   Company News
                 </a>
-                <p class="text-xs sm:text-sm text-gray-800 dark:text-neutral-200">January 18, 2023</p>
+                <p class="text-xs sm:text-sm text-gray-800 dark:text-neutral-200">Agosto 2, 2024</p>
               </div>
     
-              <p class="text-lg text-gray-800 dark:text-neutral-200">Apasionado por lo digital, hace varios años que comencé a crear sitios web. Comparto mis conocimientos y experiencia contigo en algunos artículos escritos de la A a la Z con mis propias palabras y en mi propio teclado.</p>
+              <p class="text-lg text-gray-800 dark:text-neutral-200">En la era digital actual, tener una página web es como tener una tienda abierta 24/7, los 365 días del año. Imagina que eres un chef con las recetas más deliciosas, pero sin un restaurante. ¿Cómo darías a conocer tus creaciones y atraerías clientes? Exactamente, necesitarías un sitio web para mostrar tu menú, compartir fotos de tus platos y recibir pedidos.</p>
     
-              <p class="text-lg text-gray-800 dark:text-neutral-200">We're proud to be a part of creating a more open culture and to continue building a product that supports this vision.</p>
+              <p class="text-lg text-gray-800 dark:text-neutral-200">Lo mismo aplica para cualquier negocio, grande o pequeño. Una página web es tu carta de presentación en el mundo online, tu escaparate virtual donde los clientes potenciales te encontrarán y decidirán si quieren trabajar contigo. Pero no cualquier página web servirá. Necesitas una página web profesional, diseñada a medida para tus necesidades y que refleje la identidad de tu marca.</p>
     
               <div class="text-center">
                 <div class="grid lg:grid-cols-2 gap-3">
@@ -49,10 +49,17 @@ const Articulo1 = () => {
                   Working process
                 </span>
               </div>
+
+              <h2 class="text-3xl font-bold lg:text-5xl dark:text-white">¿Por qué es tan importante tener una página web profesional?</h2>
     
-              <p class="text-lg text-gray-800 dark:text-neutral-200">As we've grown, we've seen how Preline has helped companies such as Spotify, Microsoft, Airbnb, Facebook, and Intercom bring their designers closer together to create amazing things. We've also learned that when the culture of sharing is brought in earlier, the better teams adapt and communicate with one another.</p>
+              <p class="text-lg dark: text-neutral-200">Mayor visibilidad en los buscadores: Al tener una página web optimizada para SEO (Search Engine Optimization), tu negocio aparecerá en los primeros resultados de búsqueda de Google cuando los usuarios busquen productos o servicios relacionados con los tuyos.</p>
+              <p class="text-lg dark: text-neutral-200">Aumento de la credibilidad y confianza: Una página web bien diseñada y con contenido de calidad transmite profesionalismo y genera confianza en tus clientes potenciales.</p>
+              <p class="text-lg dark: text-neutral-200">Generación de leads cualificados: A través de formularios de contacto, chatbots y otras herramientas, puedes capturar los datos de contacto de personas interesadas en tus productos o servicios y convertirlos en clientes.</p>
+              <p class="text-lg dark: text-neutral-200">Ventas 24/7: Tu página web trabaja para ti las 24 horas del día, los 7 días de la semana, generando ventas incluso mientras duermes.</p>
+              <p class="text-lg dark: text-neutral-200">Diferenciación de la competencia: Una página web única y personalizada te permite destacar entre tus competidores y mostrar lo que te hace especial.</p>
+              <p class="text-lg dark: text-neutral-200">Mejora de la experiencia del usuario: Una página web fácil de navegar y con una interfaz intuitiva hará que tus visitantes se sientan cómodos y quieran volver.</p>
+              <p class="text-lg dark: text-neutral-200">Análisis de datos y toma de decisiones: Las herramientas de análisis web te permiten conocer el comportamiento de tus visitantes y tomar decisiones basadas en datos reales.</p>
     
-              <p class="text-lg text-gray-800 dark:text-neutral-200">That's why we are excited to share that we now have a <a class="text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline font-medium dark:text-blue-500" href="#">free version of Preline</a>, which will allow individual designers, startups and other small teams a chance to create a culture of openness early on.</p>
     
               <blockquote class="text-center p-4 sm:px-7">
                 <p class="text-xl font-medium text-gray-800 lg:text-2xl lg:leading-normal xl:text-2xl xl:leading-normal dark:text-neutral-200">
@@ -71,21 +78,37 @@ const Articulo1 = () => {
               </figure>
     
               <div class="space-y-3">
-                <h3 class="text-2xl font-semibold dark:text-white">Bringing the culture of sharing to everyone</h3>
-    
-                <p class="text-lg text-gray-800 dark:text-neutral-200">We know the power of sharing is real, and we want to create an opportunity for everyone to try Preline and explore how transformative open communication can be. Now you can have a team of one or two designers and unlimited spectators (think PMs, management, marketing, etc.) share work and explore the design process earlier.</p>
+              <h2 class="text-3xl font-bold lg:text-5xl dark:text-white">Errores comunes que debes evitar al crear tu página web:</h2>    
+                <p class="text-lg text-gray-800 dark:text-neutral-200">Contenido de baja calidad: El contenido de tu página web debe ser relevante, interesante y fácil de entender para tus visitantes.</p>
+                <p class="text-lg text-gray-800 dark:text-neutral-200">Diseños anticuados y poco atractivos: Una página web con un diseño desactualizado puede hacer que tu negocio parezca poco profesional.</p>
+                <p class="text-lg text-gray-800 dark:text-neutral-200">Velocidad de carga lenta: Una página web lenta puede hacer que los visitantes abandonen tu sitio y busquen otra opción.</p>
+                <p class="text-lg text-gray-800 dark:text-neutral-200">Falta de optimización para móviles: Cada vez más personas navegan por internet desde sus teléfonos móviles, por lo que tu página web debe adaptarse a cualquier dispositivo.</p>
+                <p class="text-lg text-gray-800 dark:text-neutral-200">Ausencia de un llamado a la acción claro: Si no le dices a tus visitantes qué quieres que hagan (por ejemplo, comprar un producto, suscribirse a tu newsletter, contactarte), es probable que se vayan sin tomar ninguna acción.</p>
               </div>
-    
+              <h2 class="text-3xl font-bold mb-6 lg:text-5xl dark:text-white">Como puede una pagina web transformar tu negocio?</h2>    
               <ul class="list-disc list-outside space-y-5 ps-5 text-lg text-gray-800 dark:text-neutral-200">
-                <li class="ps-2">Preline allows us to collaborate in real time and is a really great way for leadership on the team to stay up-to-date with what everybody is working on," <a class="text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline font-medium dark:text-blue-500" href="#">said</a> Stewart Scott-Curran, Intercom's Director of Brand Design.</li>
-                <li class="ps-2">Preline opened a new way of sharing. It's a persistent way for everyone to see and absorb each other's work," said David Scott, Creative Director at <a class="text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline font-medium dark:text-blue-500" href="#">Eventbrite</a>.</li>
+                <li class="ps-2">Conectar con clientes de todo el mundo: ¡Las fronteras desaparecen en el mundo online!</li>
+                <li class="ps-2">Posicionarte como un experto en tu industria: Comparte tus conocimientos a través de un blog y conviértete en una referencia en tu sector.</li>
+                <li class="ps-2">Aumentar tus ingresos: Una página web bien optimizada puede generar un flujo constante de nuevos clientes y aumentar tus ventas.</li>
+                <li class="ps-2">Automatizar tareas: Utiliza herramientas como formularios de contacto y chatbots para ahorrar tiempo y mejorar la atención al cliente.</li>
+                <li class="ps-2">Escalar tu negocio: Una página web te permite llegar a un público mucho más amplio y expandir tu negocio.</li>
               </ul>
-    
-              <p class="text-lg text-gray-800 dark:text-neutral-200">Small teams and individual designers need a space where they can watch the design process unfold, both for themselves and for the people they work with – no matter if it's a fellow designer, product manager, developer or client. Preline allows you to invite more people into the process, creating a central place for conversation around design. As those teams grow, transparency and collaboration becomes integrated in how they communicate and work together.</p>
-    
-              <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-5 lg:gap-y-0">
+              <h2 class="text-3xl font-bold lg:text-5xl dark:text-white text-center">Estas listo para dar el siguiente paso?</h2>    
+              <p class="text-lg text-gray-800 dark:text-neutral-200 text-center">Si quieres que tu negocio tenga éxito en el mundo digital, necesitas una página web profesional. ¡Contáctame hoy mismo y te ayudaré a crear una página web que te represente y te haga destacar!</p>
+              <div className='flex flex-col justify-center'>
+              <a class="group inline-flex justify-center text-white items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm  rounded-full focus:outline-none" href="#">
+                    Contactame por Whatsapp
+                    <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </a>
+              <p class="text-lg text-gray-800 dark:text-neutral-200 text-center mt-4 mb-6">¡No esperes más para darle a tu negocio la visibilidad que merece!</p>
+              </div>
+
+              <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-5 lg:gap-y-0 mt-4">
                 {/* <!-- Badges/Tags --> */}
-                <div>
+                <div className='flex justify-center'>
                   <a class="m-0.5 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-none focus:bg-gray-200 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" href="#">
                     Plan
                   </a>
@@ -101,7 +124,7 @@ const Articulo1 = () => {
                 </div>
                 {/* <!-- End Badges/Tags --> */}
     
-                <div class="flex justify-end items-center gap-x-1.5">
+                <div class="flex justify-center items-center gap-x-1.5">
                   {/* <!-- Button --> */}
                   <div class="hs-tooltip inline-block">
                     <button type="button" class="hs-tooltip-toggle flex items-center gap-x-2 text-sm text-gray-500 hover:text-gray-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200">
@@ -164,6 +187,7 @@ const Articulo1 = () => {
                   </div>
                   {/* <!-- Button --> */}
                 </div>
+
               </div>
             </div>
           </div>
@@ -201,7 +225,7 @@ const Articulo1 = () => {
               <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-1">
                 <div class="grow">
                   <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
-                    5 Reasons to Not start a UX Designer Career in 2022/2023
+                    Por que tu negocio necesita una pagina web profesional?
                   </span>
                 </div>
     
