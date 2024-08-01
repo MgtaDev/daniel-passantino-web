@@ -1,5 +1,6 @@
 import React from 'react'
 import ElBlog from '../../components/blog'
+import Sidebar from '../../components/sidebar'
 
 const Articulo6 = () => {
   return (
@@ -17,7 +18,7 @@ const Articulo6 = () => {
                 Back to Home
               </a>
     
-              <h2 class="text-3xl font-bold lg:text-5xl dark:text-white">Mi Blog Personal</h2>
+              <h2 class="text-3xl font-bold lg:text-5xl dark:text-white">La importancia de un programador a medida en tu proyecto web</h2>
     
               <div class="flex items-center gap-x-5">
                 <a class="inline-flex items-center gap-1.5 py-1 px-3 sm:py-2 sm:px-4 rounded-full text-xs sm:text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-none focus:bg-gray-200 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800" href="#">
@@ -26,10 +27,21 @@ const Articulo6 = () => {
                 <p class="text-xs sm:text-sm text-gray-800 dark:text-neutral-200">January 18, 2023</p>
               </div>
     
-              <p class="text-lg text-gray-800 dark:text-neutral-200">Apasionado por lo digital, hace varios años que comencé a crear sitios web. Comparto mis conocimientos y experiencia contigo en algunos artículos escritos de la A a la Z con mis propias palabras y en mi propio teclado.</p>
+              <p class="text-lg text-gray-800 dark:text-neutral-200">¿Sabías que tu sitio web podría ser mucho más que una simple presencia en línea? Imagina un sitio web diseñado exclusivamente para tu negocio, optimizado para tus clientes y capaz de generar resultados tangibles. En este artículo, te revelaremos cómo un desarrollo web a medida puede transformar tu presencia digital.</p>
+
+              <div class="grid grid-cols-2 lg:grid-cols-1 gap-3">
+                    <figure class="relative w-full h-60">
+                      <img class="size-full absolute top-0 start-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1670272505340-d906d8d77d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
+                    </figure>
+                    <figure class="relative w-full h-60">
+                      <img class="size-full absolute top-0 start-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1671726203638-83742a2721a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
+                    </figure>
+                  </div>
     
-              <p class="text-lg text-gray-800 dark:text-neutral-200">We're proud to be a part of creating a more open culture and to continue building a product that supports this vision.</p>
+              <p class="text-lg text-gray-800 dark:text-neutral-200">Durante años, los CMS han sido la opción más popular para crear sitios web. Plataformas como WordPress y Wix ofrecen una facilidad de uso y una amplia variedad de plantillas que los hacen muy atractivos. Sin embargo, estas soluciones preconfiguradas pueden limitar tu creatividad y no siempre se adaptan a las necesidades específicas de tu negocio.</p>
     
+              <p class="text-lg text-gray-800 dark:text-neutral-200">Un desarrollo web a medida te brinda la libertad de diseñar un sitio web único, desde la estructura hasta el diseño visual. Además, te permite optimizar tu sitio para un rendimiento óptimo, mejorar la experiencia del usuario y proteger tu información con medidas de seguridad personalizadas.</p>
+              
               <div class="text-center">
                 <div class="grid lg:grid-cols-2 gap-3">
                   <div class="grid grid-cols-2 lg:grid-cols-1 gap-3">
@@ -49,19 +61,20 @@ const Articulo6 = () => {
                   Working process
                 </span>
               </div>
+
+              <h2 class="text-3xl font-bold mb-6 lg:text-5xl dark:text-white text-center">La promesa del desarrollo a medida</h2>    
     
-              <p class="text-lg text-gray-800 dark:text-neutral-200">As we've grown, we've seen how Preline has helped companies such as Spotify, Microsoft, Airbnb, Facebook, and Intercom bring their designers closer together to create amazing things. We've also learned that when the culture of sharing is brought in earlier, the better teams adapt and communicate with one another.</p>
+              <p class="text-lg text-gray-800 dark:text-neutral-200">Cuando decides construir un sitio web a medida, estás invirtiendo en una solución única y adaptada a tus necesidades específicas. A diferencia de los CMS, que te ofrecen una estructura predefinida, un desarrollo personalizado te permite:</p>
     
-              <p class="text-lg text-gray-800 dark:text-neutral-200">That's why we are excited to share that we now have a <a class="text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline font-medium dark:text-blue-500" href="#">free version of Preline</a>, which will allow individual designers, startups and other small teams a chance to create a culture of openness early on.</p>
-    
-              <blockquote class="text-center p-4 sm:px-7">
-                <p class="text-xl font-medium text-gray-800 lg:text-2xl lg:leading-normal xl:text-2xl xl:leading-normal dark:text-neutral-200">
-                  To say that switching to Preline has been life-changing is an understatement. My business has tripled and I got my life back.
-                </p>
-                <p class="mt-5 text-gray-800 dark:text-neutral-200">
-                  Nicole Grazioso
-                </p>
-              </blockquote>
+              <ul class="list-disc list-outside space-y-5 ps-5 text-lg text-gray-800 dark:text-neutral-200">
+                <li class="ps-2">Libertad creativa: Diseña y desarrolla un sitio web que refleje tu marca y tus objetivos de negocio al 100%.</li>
+                <li class="ps-2">Rendimiento óptimo: Un sitio web a medida se optimiza para cargar más rápido y ofrecer una mejor experiencia de usuario.</li>
+                <li class="ps-2">Escalabilidad: Adapta tu sitio a medida que tu negocio crece y evoluciona.</li>
+                <li class="ps-2">Seguridad: Protege tu sitio web con medidas de seguridad personalizadas y robustas.</li>
+                <li class="ps-2">Innovación: Implementa las últimas tecnologías y tendencias del mercado.</li>
+               
+               
+              </ul>
     
               <figure>
                 <img class="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1671726203454-488ab18f7eda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
@@ -71,21 +84,86 @@ const Articulo6 = () => {
               </figure>
     
               <div class="space-y-3">
-                <h3 class="text-2xl font-semibold dark:text-white">Bringing the culture of sharing to everyone</h3>
+              <h2 class="text-3xl font-bold mb-6 lg:text-5xl dark:text-white text-center">¿Por qué renunciar a la flexibilidad y el potencial de un desarrollo a medida?</h2>    
     
-                <p class="text-lg text-gray-800 dark:text-neutral-200">We know the power of sharing is real, and we want to create an opportunity for everyone to try Preline and explore how transformative open communication can be. Now you can have a team of one or two designers and unlimited spectators (think PMs, management, marketing, etc.) share work and explore the design process earlier.</p>
+    <p class="text-lg text-gray-800 dark:text-neutral-200">Los CMS, aunque útiles para muchos proyectos, presentan ciertas limitaciones:</p>
               </div>
     
-              <ul class="list-disc list-outside space-y-5 ps-5 text-lg text-gray-800 dark:text-neutral-200">
-                <li class="ps-2">Preline allows us to collaborate in real time and is a really great way for leadership on the team to stay up-to-date with what everybody is working on," <a class="text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline font-medium dark:text-blue-500" href="#">said</a> Stewart Scott-Curran, Intercom's Director of Brand Design.</li>
-                <li class="ps-2">Preline opened a new way of sharing. It's a persistent way for everyone to see and absorb each other's work," said David Scott, Creative Director at <a class="text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline font-medium dark:text-blue-500" href="#">Eventbrite</a>.</li>
-              </ul>
+
+            
+    <ul class="list-disc list-outside space-y-5 ps-5 text-lg text-gray-800 dark:text-neutral-200">
+      <li class="ps-2">Restricciones de diseño: Las plantillas prediseñadas pueden limitar tu creatividad y dificultar la creación de un sitio web único.</li>
+      <li class="ps-2">Rendimiento: Los CMS pueden volverse lentos y difíciles de gestionar a medida que añades más funcionalidades y plugins.</li>
+      <li class="ps-2">Seguridad: Son más vulnerables a ataques cibernéticos debido a la gran cantidad de usuarios y plugins.</li>
+      <li class="ps-2">Seguridad: Protege tu sitio web con medidas de seguridad personalizadas y robustas.</li>
+      <li class="ps-2">Costos a largo plazo: Los costos de las licencias, plugins y actualizaciones pueden aumentar significativamente con el tiempo.</li>
+     
+     
+    </ul>
+              <p class="text-lg text-gray-800 dark:text-neutral-200">Encontrar un buen programador es fundamental para el éxito de tu proyecto. Busca profesionales con experiencia, un portafolio sólido y buenas referencias. La comunicación clara y la capacidad de adaptarse a tus necesidades son cualidades esenciales.</p>
+
+
+              <div class="text-center">
+                <div class="grid lg:grid-cols-2 gap-3">
+                  <div class="grid grid-cols-2 lg:grid-cols-1 gap-3">
+                    <figure class="relative w-full h-60">
+                      <img class="size-full absolute top-0 start-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1670272505340-d906d8d77d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
+                    </figure>
+                    <figure class="relative w-full h-60">
+                      <img class="size-full absolute top-0 start-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1671726203638-83742a2721a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
+                    </figure>
+                  </div>
+                  <figure class="relative w-full h-72 sm:h-96 lg:h-full">
+                    <img class="size-full absolute top-0 start-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1671726203394-491c8b574a0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
+                  </figure>
+                </div>
     
-              <p class="text-lg text-gray-800 dark:text-neutral-200">Small teams and individual designers need a space where they can watch the design process unfold, both for themselves and for the people they work with – no matter if it's a fellow designer, product manager, developer or client. Preline allows you to invite more people into the process, creating a central place for conversation around design. As those teams grow, transparency and collaboration becomes integrated in how they communicate and work together.</p>
+                <span class="mt-3 block text-sm text-center text-gray-500 dark:text-neutral-500">
+                  Working process
+                </span>
+              </div>
+
+              <div class="space-y-3">
+              <h2 class="text-3xl font-bold mb-6 lg:text-5xl dark:text-white text-center">El proceso de desarrollo a medida</h2>    
+    
+    <p class="text-lg text-gray-800 dark:text-neutral-200">El desarrollo de un sitio web a medida implica un proceso estructurado que incluye:</p>
+              </div>
+    
+
+            
+    <ul class="list-disc list-outside space-y-5 ps-5 text-lg text-gray-800 dark:text-neutral-200">
+      <li class="ps-2">Análisis de requisitos: Definir las funcionalidades y el diseño del sitio web.</li>
+      <li class="ps-2">Diseño: Crear wireframes y prototipos para visualizar el proyecto.</li>
+      <li class="ps-2">Desarrollo: Codificación del sitio web utilizando las tecnologías más adecuadas.</li>
+      <li class="ps-2">Pruebas: Asegurar que el sitio web funcione correctamente y cumpla con los requisitos.</li>
+      <li class="ps-2">Lanzamiento: Puesta en marcha del sitio web.</li>
+      <li class="ps-2">Mantenimiento: Actualizaciones y soporte técnico a largo plazo.</li>
+      
+
+
+    </ul>
+
+    <p class="text-lg text-gray-800 dark:text-neutral-200 text-center">Invertir en un desarollo a medida es una decision estrategica que puede marcar la diferencia en el exito de tu negocio online</p>
+
+       {/* Call to action */}
+       <h2 class="text-3xl font-bold lg:text-5xl dark:text-white text-center mt-8 ">Estas listo para dar el siguiente paso? </h2>    
+              <p class="text-lg text-gray-800 dark:text-neutral-200 text-center">¡Contáctanos hoy mismo y descubre cómo podemos ayudarte a crear un sitio web único y personalizado!
+</p>
+              <div className='flex flex-col mt-4 justify-center'>
+              <a class="group inline-flex justify-center text-white items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm  rounded-full focus:outline-none" href="#">
+                    Contactame por Whatsapp
+                    <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </a>
+              <p class="text-lg text-gray-800 dark:text-neutral-200 text-center mt-4 mb-6">¡No esperes más para darle a tu negocio la visibilidad que merece!</p>
+              </div>
+               {/* Call to action */}
     
               <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-5 lg:gap-y-0">
                 {/* <!-- Badges/Tags --> */}
-                <div>
+                <div className='flex justify-center md:flex-none md:justify-normal lg:flex-none lg:justify-normal'>
                   <a class="m-0.5 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-none focus:bg-gray-200 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" href="#">
                     Plan
                   </a>
@@ -101,7 +179,7 @@ const Articulo6 = () => {
                 </div>
                 {/* <!-- End Badges/Tags --> */}
     
-                <div class="flex justify-end items-center gap-x-1.5">
+                <div class="flex justify-center md:justify-end lg:justify-end items-center gap-x-1.5">
                   {/* <!-- Button --> */}
                   <div class="hs-tooltip inline-block">
                     <button type="button" class="hs-tooltip-toggle flex items-center gap-x-2 text-sm text-gray-500 hover:text-gray-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200">
@@ -170,113 +248,7 @@ const Articulo6 = () => {
         </div>
         {/* <!-- End Content --> */}
     
-        {/* <!-- Sidebar --> */}
-        <div class="lg:col-span-2  lg:right-0 lg:top-14 relative ml-6 lg:ml-0 lg:mr-4 lg:h-[550px] mt-0 rounded-lg lg:bg-gradient-to-r lg:from-gray-50 lg:via-transparent lg:to-transparent dark:from-neutral-800 ">
-          <div class="sticky top-0 start-0  py-8 lg:ps-8">
-            {/* <!-- Avatar Media --> */}
-            <div class="group flex items-center gap-x-3 border-b border-gray-200 pb-8 mb-8 dark:border-neutral-700">
-              <a class="block shrink-0 focus:outline-none" href="#">
-                <img class="size-10 rounded-full" src="/photo_2023-12-1817.45.05.jpeg" alt="Avatar"/>
-              </a>
-    
-              <a class="group grow block focus:outline-none" href="">
-                <h5 class="group-hover:text-gray-600 group-focus:text-gray-600 text-sm font-semibold text-gray-800 dark:group-hover:text-neutral-400 dark:group-focus:text-neutral-400 dark:text-neutral-200">
-                  Daniel Passantino
-                </h5>
-                <p class="text-sm text-gray-500 dark:text-neutral-500">
-                  Web Developer & Marketing CEO
-                </p>
-              </a>
-    
-              <div class="grow">
-                <div class="flex">
-                  <img class="size-8 rounded-full" src="/whatsapp.png" alt="Avatar"/>
-                </div>
-              </div>
-            </div>
-    
-            <div class="pr-4 lg:-ml-1">
-                <div className='space-y-6 overflow-y-scroll h-[40vh] min-h-[400px]'>
-                <h4>Lee otros articulos:</h4>
-              <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-1">
-                <div class="grow">
-                  <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
-                    5 Reasons to Not start a UX Designer Career in 2022/2023
-                  </span>
-                </div>
-    
-                <div class="shrink-0 relative mr-4 rounded-lg overflow-hidden size-20">
-                  <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
-                </div>
-              </a>
-    
-              <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-2">
-                <div class="grow">
-                  <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
-                    If your UX Portfolio has this 20% Well Done, it Will Give You an 80% Result
-                  </span>
-                </div>
-    
-                <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
-                  <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1542125387-c71274d94f0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
-                </div>
-              </a>
-    
-              <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-3">
-                <div class="grow">
-                  <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
-                    7 Principles of Icon Design
-                  </span>
-                </div>
-    
-                <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
-                  <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
-                </div>
-              </a>
-
-              <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-4">
-                <div class="grow">
-                  <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
-                    7 Principles of Icon Design
-                  </span>
-                </div>
-    
-                <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
-                  <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
-                </div>
-              </a>
-
-              <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-5">
-                <div class="grow">
-                  <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
-                    7 Principles of Icon Design
-                  </span>
-                </div>
-    
-                <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
-                  <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
-                </div>
-              </a>
-           
-              <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-6">
-                <div class="grow">
-                  <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
-                    7 Principles of Icon Design
-                  </span>
-                </div>
-    
-                <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
-                  <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
-                </div>
-              </a>
-                </div>
-                 
-              
-
-            </div>
-          </div>
-        </div>
-        {/* End Sidebar */}
+       <Sidebar/>
 
       </div>
     </div>

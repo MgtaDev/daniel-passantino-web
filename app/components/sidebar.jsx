@@ -39,7 +39,7 @@ const Sidebar = () => {
          </div>
 
          <div class="shrink-0 relative mr-4 rounded-lg overflow-hidden size-20">
-           <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
+           <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="/portada-art-1.jpeg" alt="Blog Image"/>
          </div>
        </a>
 
@@ -51,7 +51,7 @@ const Sidebar = () => {
          </div>
 
          <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
-           <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1542125387-c71274d94f0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
+           <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="/diseño-grafico-art-2.jpg" alt="Blog Image"/>
          </div>
        </a>
 
@@ -64,7 +64,7 @@ const Sidebar = () => {
          </div>
 
          <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
-           <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
+           <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="/redes-art-3.jpg" alt="Blog Image"/>
          </div>
        </a>
 
@@ -76,7 +76,7 @@ const Sidebar = () => {
          </div>
 
          <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
-           <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
+           <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="/diseño-tendencia-4.png" alt="Blog Image"/>
          </div>
        </a>
 
@@ -88,19 +88,19 @@ const Sidebar = () => {
          </div>
 
          <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
-           <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
+           <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="/SEO.jpeg" alt="Blog Image"/>
          </div>
        </a>
     
        <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-6">
          <div class="grow">
            <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
-             7 Principles of Icon Design
+             La importancia de un programador a medida en tu proyecto web
            </span>
          </div>
 
          <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
-           <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
+           <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="/programador-a-medida.jpg" alt="Blog Image"/>
          </div>
        </a>
          </div>
