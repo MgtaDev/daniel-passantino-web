@@ -1,5 +1,6 @@
 import React from 'react'
 import ElBlog from '../../components/blog'
+import Sidebar from '../../components/sidebar'
 
 const Articulo5 = () => {
   return (
@@ -17,18 +18,39 @@ const Articulo5 = () => {
                 Back to Home
               </a>
     
-              <h2 class="text-3xl font-bold lg:text-5xl dark:text-white">Mi Blog Personal</h2>
-    
+              <h2 class="text-3xl font-bold lg:text-5xl dark:text-white">SEO: El secreto para que te encuentre en Google</h2>
               <div class="flex items-center gap-x-5">
                 <a class="inline-flex items-center gap-1.5 py-1 px-3 sm:py-2 sm:px-4 rounded-full text-xs sm:text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-none focus:bg-gray-200 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800" href="#">
                   Company News
                 </a>
                 <p class="text-xs sm:text-sm text-gray-800 dark:text-neutral-200">January 18, 2023</p>
               </div>
+              <div class="text-center">
+                <div class="grid lg:grid-cols-2 gap-3">
+                  <div class="grid grid-cols-2 lg:grid-cols-1 gap-3">
+                    <figure class="relative w-full h-60">
+                      <img class="size-full absolute top-0 start-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1670272505340-d906d8d77d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
+                    </figure>
+                    <figure class="relative w-full h-60">
+                      <img class="size-full absolute top-0 start-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1671726203638-83742a2721a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
+                    </figure>
+                  </div>
+                  <figure class="relative w-full h-72 sm:h-96 lg:h-full">
+                    <img class="size-full absolute top-0 start-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1671726203394-491c8b574a0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
+                  </figure>
+                </div>
     
-              <p class="text-lg text-gray-800 dark:text-neutral-200">Apasionado por lo digital, hace varios años que comencé a crear sitios web. Comparto mis conocimientos y experiencia contigo en algunos artículos escritos de la A a la Z con mis propias palabras y en mi propio teclado.</p>
+                <span class="mt-3 block text-sm text-center text-gray-500 dark:text-neutral-500">
+                  Working process
+                </span>
+              </div>
+             
     
-              <p class="text-lg text-gray-800 dark:text-neutral-200">We're proud to be a part of creating a more open culture and to continue building a product that supports this vision.</p>
+              <p class="text-lg text-gray-800 dark:text-neutral-200">Imagínate tener una tienda física en una calle muy transitada, pero nadie sabe que estás ahí. Eso es lo que le sucede a muchas páginas web sin SEO. El SEO (Search Engine Optimization o Optimización para Motores de Búsqueda) es como un gran cartel luminoso que indica tu ubicación a los clientes potenciales que buscan tus productos o servicios en Google.
+         </p>
+        <h2 className='text-2xl font-bold mb-6 lg:text-5xl dark:text-white '>¿Qué es el SEO y por qué es importante?</h2>    
+    
+              <p class="text-lg text-gray-800 dark:text-neutral-200">El SEO es el conjunto de técnicas y estrategias que se utilizan para mejorar la visibilidad de un sitio web en los resultados de búsqueda orgánicos de Google y otros motores de búsqueda. Cuando alguien busca un término relacionado con tu negocio, el objetivo del SEO es que tu página aparezca en los primeros resultados.  </p>
     
               <div class="text-center">
                 <div class="grid lg:grid-cols-2 gap-3">
@@ -49,19 +71,60 @@ const Articulo5 = () => {
                   Working process
                 </span>
               </div>
+
+              <h2 className='text-2xl font-bold mb-6 lg:text-5xl dark:text-white '>Tener un SEO optimizado para alcanzar</h2>    
+
+              <ul class="list-disc list-outside space-y-5 ps-5 text-lg text-gray-800 dark:text-neutral-200">
+                <li class="ps-2">Más tráfico: Un buen posicionamiento en Google atrae a más visitantes a tu sitio web.</li>
+                <li class="ps-2">Mayor visibilidad: Te da más oportunidades de que te encuentren nuevos clientes.</li>
+                <li class="ps-2">Mayor credibilidad: Aparecer en los primeros resultados de búsqueda otorga credibilidad a tu negocio.</li>
+                <li class="ps-2">Retorno de inversión a largo plazo: Aunque requiere tiempo y esfuerzo, el SEO es una inversión que sigue dando frutos a largo plazo.</li>
+ 
+              </ul>
+
+              <h2 className='text-2xl font-bold mb-6 lg:text-5xl dark:text-white '>Los factores clave para posicionar una página web en Google</h2>    
+
+              <ul class="list-disc list-outside space-y-5 ps-5 text-lg text-gray-800 dark:text-neutral-200">
+                <li class="ps-2">Contenido de calidad: Crea contenido relevante, original y bien estructurado que responda a las preguntas de tus usuarios.</li>
+                <li class="ps-2">Palabras clave: Identifica las palabras clave que tus clientes potenciales utilizan para buscar tus productos o servicios y úsalas de forma estratégica en tu contenido.</li>
+                <li class="ps-2">Optimización on-page: Asegúrate de que tu código HTML, títulos, meta descripciones y etiquetas estén optimizados para los motores de búsqueda.</li>
+                <li class="ps-2">Enlaces entrantes: Consigue que otros sitios web enlacen hacia el tuyo. Esto le indica a Google que tu sitio es relevante y de calidad.</li>
+                <li class="ps-2">Experiencia de usuario: Un sitio web rápido, fácil de navegar y móvil-friendly es esencial para un buen posicionamiento.</li>
+ 
+              </ul>
+
+              <div class="text-center">
+                <div class="grid lg:grid-cols-2 gap-3">
+                  <div class="grid grid-cols-2 lg:grid-cols-1 gap-3">
+                    <figure class="relative w-full h-60">
+                      <img class="size-full absolute top-0 start-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1670272505340-d906d8d77d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
+                    </figure>
+                    <figure class="relative w-full h-60">
+                      <img class="size-full absolute top-0 start-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1671726203638-83742a2721a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
+                    </figure>
+                  </div>
+                  <figure class="relative w-full h-72 sm:h-96 lg:h-full">
+                    <img class="size-full absolute top-0 start-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1671726203394-491c8b574a0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
+                  </figure>
+                </div>
     
-              <p class="text-lg text-gray-800 dark:text-neutral-200">As we've grown, we've seen how Preline has helped companies such as Spotify, Microsoft, Airbnb, Facebook, and Intercom bring their designers closer together to create amazing things. We've also learned that when the culture of sharing is brought in earlier, the better teams adapt and communicate with one another.</p>
+                <span class="mt-3 block text-sm text-center text-gray-500 dark:text-neutral-500">
+                  Working process
+                </span>
+              </div>
+
+              <h2 className='text-2xl font-bold mb-6 lg:text-5xl dark:text-white '>Consejos practicos para mejorar el SEO de tu sitio web</h2>    
+
+              <ul class="list-disc list-outside space-y-5 ps-5 text-lg text-gray-800 dark:text-neutral-200">
+                <li class="ps-2">Realiza una auditoría SEO: Analiza tu sitio web para identificar las áreas de mejora.</li>
+                <li class="ps-2">Crea un blog: Un blog te permite publicar contenido regularmente y atraer más visitantes.</li>
+                <li class="ps-2">Optimiza tus imágenes: Utiliza imágenes de alta calidad con nombres descriptivos y etiquetas ALT.</li>
+                <li class="ps-2">Construye enlaces de calidad: Colabora con otros sitios web y crea contenido que otros quieran compartir.</li>
+                <li class="ps-2">Mide tus resultados: Utiliza herramientas de análisis para rastrear tu progreso y hacer ajustes a tu estrategia.</li>
+ 
+              </ul>
     
-              <p class="text-lg text-gray-800 dark:text-neutral-200">That's why we are excited to share that we now have a <a class="text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline font-medium dark:text-blue-500" href="#">free version of Preline</a>, which will allow individual designers, startups and other small teams a chance to create a culture of openness early on.</p>
-    
-              <blockquote class="text-center p-4 sm:px-7">
-                <p class="text-xl font-medium text-gray-800 lg:text-2xl lg:leading-normal xl:text-2xl xl:leading-normal dark:text-neutral-200">
-                  To say that switching to Preline has been life-changing is an understatement. My business has tripled and I got my life back.
-                </p>
-                <p class="mt-5 text-gray-800 dark:text-neutral-200">
-                  Nicole Grazioso
-                </p>
-              </blockquote>
+             
     
               <figure>
                 <img class="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1671726203454-488ab18f7eda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
@@ -71,21 +134,15 @@ const Articulo5 = () => {
               </figure>
     
               <div class="space-y-3">
-                <h3 class="text-2xl font-semibold dark:text-white">Bringing the culture of sharing to everyone</h3>
-    
-                <p class="text-lg text-gray-800 dark:text-neutral-200">We know the power of sharing is real, and we want to create an opportunity for everyone to try Preline and explore how transformative open communication can be. Now you can have a team of one or two designers and unlimited spectators (think PMs, management, marketing, etc.) share work and explore the design process earlier.</p>
+                <p class="text-lg text-gray-800 dark:text-neutral-200">El SEO es una inversión a largo plazo que puede generar grandes beneficios para tu negocio. Aunque puede parecer complejo, con un poco de esfuerzo y las herramientas adecuadas, puedes mejorar significativamente el posicionamiento de tu sitio web en Google y atraer a más clientes.
+                ¿Quieres saber más sobre cómo mejorar el SEO de tu sitio web? ¡Contáctame!
+                </p>
               </div>
     
-              <ul class="list-disc list-outside space-y-5 ps-5 text-lg text-gray-800 dark:text-neutral-200">
-                <li class="ps-2">Preline allows us to collaborate in real time and is a really great way for leadership on the team to stay up-to-date with what everybody is working on," <a class="text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline font-medium dark:text-blue-500" href="#">said</a> Stewart Scott-Curran, Intercom's Director of Brand Design.</li>
-                <li class="ps-2">Preline opened a new way of sharing. It's a persistent way for everyone to see and absorb each other's work," said David Scott, Creative Director at <a class="text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline font-medium dark:text-blue-500" href="#">Eventbrite</a>.</li>
-              </ul>
-    
-              <p class="text-lg text-gray-800 dark:text-neutral-200">Small teams and individual designers need a space where they can watch the design process unfold, both for themselves and for the people they work with – no matter if it's a fellow designer, product manager, developer or client. Preline allows you to invite more people into the process, creating a central place for conversation around design. As those teams grow, transparency and collaboration becomes integrated in how they communicate and work together.</p>
-    
+              
               <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-5 lg:gap-y-0">
                 {/* <!-- Badges/Tags --> */}
-                <div>
+                <div className='flex justify-center md:flex-none lg:flex-none md:justify-normal lg:justify-normal'>
                   <a class="m-0.5 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-none focus:bg-gray-200 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" href="#">
                     Plan
                   </a>
@@ -101,7 +158,7 @@ const Articulo5 = () => {
                 </div>
                 {/* <!-- End Badges/Tags --> */}
     
-                <div class="flex justify-end items-center gap-x-1.5">
+                <div class="flex justify-center lg:justify-end md:justify-end items-center gap-x-1.5">
                   {/* <!-- Button --> */}
                   <div class="hs-tooltip inline-block">
                     <button type="button" class="hs-tooltip-toggle flex items-center gap-x-2 text-sm text-gray-500 hover:text-gray-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200">
@@ -167,120 +224,35 @@ const Articulo5 = () => {
               </div>
             </div>
           </div>
-        </div>
-        {/* <!-- End Content --> */}
-    
-        {/* <!-- Sidebar --> */}
-        <div class="lg:col-span-2  lg:right-0 lg:top-14 relative ml-6 lg:ml-0 lg:mr-4 lg:h-[550px] mt-0 rounded-lg lg:bg-gradient-to-r lg:from-gray-50 lg:via-transparent lg:to-transparent dark:from-neutral-800 ">
-          <div class="sticky top-0 start-0  py-8 lg:ps-8">
-            {/* <!-- Avatar Media --> */}
-            <div class="group flex items-center gap-x-3 border-b border-gray-200 pb-8 mb-8 dark:border-neutral-700">
-              <a class="block shrink-0 focus:outline-none" href="#">
-                <img class="size-10 rounded-full" src="/photo_2023-12-1817.45.05.jpeg" alt="Avatar"/>
-              </a>
-    
-              <a class="group grow block focus:outline-none" href="">
-                <h5 class="group-hover:text-gray-600 group-focus:text-gray-600 text-sm font-semibold text-gray-800 dark:group-hover:text-neutral-400 dark:group-focus:text-neutral-400 dark:text-neutral-200">
-                  Daniel Passantino
-                </h5>
-                <p class="text-sm text-gray-500 dark:text-neutral-500">
-                  Web Developer & Marketing CEO
-                </p>
-              </a>
-    
-              <div class="grow">
-                <div class="flex">
-                  <img class="size-8 rounded-full" src="/whatsapp.png" alt="Avatar"/>
-                </div>
-              </div>
-            </div>
-    
-            <div class="pr-4 lg:-ml-1">
-                <div className='space-y-6 overflow-y-scroll h-[40vh] min-h-[400px]'>
-                <h4>Lee otros articulos:</h4>
-              <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-1">
-                <div class="grow">
-                  <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
-                    5 Reasons to Not start a UX Designer Career in 2022/2023
-                  </span>
-                </div>
-    
-                <div class="shrink-0 relative mr-4 rounded-lg overflow-hidden size-20">
-                  <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
-                </div>
-              </a>
-    
-              <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-2">
-                <div class="grow">
-                  <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
-                    If your UX Portfolio has this 20% Well Done, it Will Give You an 80% Result
-                  </span>
-                </div>
-    
-                <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
-                  <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1542125387-c71274d94f0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
-                </div>
-              </a>
-    
-              <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-3">
-                <div class="grow">
-                  <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
-                    7 Principles of Icon Design
-                  </span>
-                </div>
-    
-                <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
-                  <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
-                </div>
-              </a>
-
-              <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-4">
-                <div class="grow">
-                  <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
-                    7 Principles of Icon Design
-                  </span>
-                </div>
-    
-                <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
-                  <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
-                </div>
-              </a>
-
-              <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-5">
-                <div class="grow">
-                  <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
-                    7 Principles of Icon Design
-                  </span>
-                </div>
-    
-                <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
-                  <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
-                </div>
-              </a>
-           
-              <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-6">
-                <div class="grow">
-                  <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
-                    7 Principles of Icon Design
-                  </span>
-                </div>
-    
-                <div class="shrink-0 relative  mr-4  rounded-lg overflow-hidden size-20">
-                  <img class="size-full absolute top-0 start-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image"/>
-                </div>
-              </a>
-                </div>
                  
-              
+{/* Call to action */}
 
-            </div>
-          </div>
-        </div>
-        {/* End Sidebar */}
 
+
+<h2 class="text-3xl font-bold lg:text-3xl dark:text-white text-center mt-2">¿Quieres que tu sitio web escale posiciones en Google?</h2>    
+              <p class="text-lg text-gray-800 lg:text-start dark:text-neutral-200 mt-2 text-center">Ponte en contacto conmigo hoy mismo Solicita una auditoría SEO gratuita para descubrir cómo podemos ayudarte!
+</p>
+              <div className='flex flex-col mt-4 justify-center'>
+              <a class="group inline-flex justify-center text-white items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-purple-400 via-[#7d5ed7] to-[#683fe4]  font-medium text-sm  rounded-full focus:outline-none" href="#">
+                    Contactame por Whatsapp
+                    <svg class="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </a>
+              <p class="text-lg text-gray-800 dark:text-neutral-200 text-center mt-4 mb-6">¡No esperes más para darle a tu negocio la visibilidad que merece!</p>
+              </div>
+               {/* Call to action */}
+
+        {/* <!-- End Content --> */}
+
+</div>
+
+    <Sidebar/>
       </div>
     </div>
     </div>
+ 
     <ElBlog/>
     
 

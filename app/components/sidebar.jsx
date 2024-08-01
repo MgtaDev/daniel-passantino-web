@@ -71,7 +71,7 @@ const Sidebar = () => {
        <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-4">
          <div class="grow">
            <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
-             7 Principles of Icon Design
+          Las ultimas tendencias en diseño web: Un viaje hacia el futuro digital
            </span>
          </div>
 
@@ -83,7 +83,7 @@ const Sidebar = () => {
        <a class="group flex items-center gap-x-6 focus:outline-none" href="/blog/articulo-5">
          <div class="grow">
            <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 group-focus:text-blue-600 dark:text-neutral-200 dark:group-hover:text-blue-500 dark:group-focus:text-blue-500">
-             7 Principles of Icon Design
+          SEO: El secreto para que te encuentren en Google
            </span>
          </div>
 
