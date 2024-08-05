@@ -10,7 +10,7 @@ const Personalpage = () => {
     
 {/* Hero */}
     <div class="bg-neutral-900  flex">
-    <div class="area md:flex">
+    <div class=" md:flex">
 			
       <div class="max-w-2xl lg:mr-32  md:left-28 lg:left-28 relative  mx-auto px-4 xl:px-0 pt-14 lg:pt-4 pb-24">
     

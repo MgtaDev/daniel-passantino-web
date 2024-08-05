@@ -6,11 +6,11 @@ const Articulo1 = () => {
   return (
     <>
     <div className='lg:mx-20'>
-    <div class="max-w-[75rem] px-4 sm:px-6 lg:px-8 mx-auto">
+    <div class="max-w-[80rem] px-4 sm:px-6 lg:px-8 mx-auto">
       <div class="grid lg:grid-cols-5  gap-y-8 lg:gap-y-0 lg:gap-x-6">
 
         {/* <!-- Content --> */}
-        <div class="lg:col-span-3 lg:ml-14">
+        <div class="lg:col-span-3 lg:ml-4">
           <div class="py-8 lg:pe-8">
             <div class="space-y-5 lg:space-y-8">
               <a class="inline-flex items-center gap-x-1.5 text-sm text-gray-600 decoration-2 hover:underline focus:outline-none focus:underline dark:text-blue-500" href="#">
@@ -109,7 +109,7 @@ const Articulo1 = () => {
 
               <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-5 lg:gap-y-0 mt-4">
                 {/* <!-- Badges/Tags --> */}
-                <div className='flex justify-center'>
+                <div className='flex justify-center md:flex-none md:justify-normal lg:flex-none lg:justify-normal'>
                   <a class="m-0.5 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-none focus:bg-gray-200 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" href="#">
                     Plan
                   </a>
